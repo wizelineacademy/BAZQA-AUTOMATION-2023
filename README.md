@@ -12,8 +12,7 @@ El objetivo de esta etapa es brindarte la oportunidad de actualizar tus conocimi
 
 **Sesiones en Vivo** 
 - Son clases presenciales que imparten ingenieros de Wizeline, las sesiones tienen una duración de 2 horas.
-- Miércoles y Jueves: 2pm en oficinas de Wizeline - [Liga zoom](https://wizeline.zoom.us/j/84175058495) en caso que no puedan presentarse
-- Viernes: 9am en línea por [Zoom](https://wizeline.zoom.us/j/84175058495)
+- Lunes y Martes: 9am y 2pm en oficinas de Wizeline - [Liga zoom](https://wizeline.zoom.us/j/84175058495) en caso que no puedan presentarse
 
 - En las sesiones en línea, es **obligatorio** tener la cámara prendida.
 - Debes asisitir a mínimo 10 sesiones presenciales para tener derecho a presentar tu Proyecto Final
@@ -21,7 +20,7 @@ El objetivo de esta etapa es brindarte la oportunidad de actualizar tus conocimi
 
 **Mentorías Grupales**
 - Son sesiones de mentoría en sitio que se llevan a cabo después de las sesiones en vivo para reforzar conocimientos y aclarar dudas. La duración de estas mentorías es de 2 horas.
-- Lunes y Martes: 4pm en oficinas de Wizeline
+- Lunes y Martes: 11am en oficinas de Wizeline
 
 **Mentorías On Demand**
 - Son sesiones en donde podrás interactuar con ingenieros de Wizeline para resolver dudas que tengas sobre los temas cubiertos en las sesiones en vivo, el material de autoestudio o sobre el proyecto final. Las mentorías tienen una duración de 1 hora, son en línea y son bajo demanda. Más abajo están las instrucciones y ligas para solicitar una sesión.
@@ -71,49 +70,23 @@ Para la revisión de tu Capstone Project se te asignó un mentor quien te dará 
 
 | Nombre | Correo electrónico | Github |
 | ------ | ------------------ | ------ |
-| Diego Parra Robayo | diego.parra@wizeline.com | diego-parra-robayo |
-| Fabian Jiménez Villegas | fabian.jimenez@wizeline.com | Fabian-jv |
-| Diego Medina Padilla | diego.medina@wizeline.com | DiegoMedinaP |
-| Cecilia Dávila Barajas | juana.davila@wizeline.com | cecydb11-wizeline |
-| Mario Salas Cardenas | luis.salas@wizeline.com | luismario-wize |
-| Alfredo Arrieta | alfredo.arrieta@wizeline.com | mrarrieta |
-| Edgar Correa | edgar.correa@wizeline.com | ECorreaWize |
-| Baltazar Rodríguez | baltazar.rodriguez@wizeline.com | baltazarwz |
+|  |  |  |
+ 
 
 | ID Empleado | Nombre                              | Mentor |
 | ----------: | :---------------------------------- | :-------------------------- |
-|     |                          | Diego Parra                 |
-|     |                         | Diego Parra                 |
-|      |                     | Fabián Jiménez              |
-|      |                    | Fabián Jiménez              |
-|      |              | Diego Medina                |
-|     |                          | Diego Medina                |
-|      |                     | Cecilia Dávila              |
-|     |                      | Cecilia Dávila              |
-|      |                    | Mario Salas                 |
-|    |                         | Mario Salas                 |
-|      |                      | Alfredo Arrieta             |
-|      |                     | Alfredo Arrieta             |
-|     |               | Edgar Correa                |
-|      |                        | Edgar Correa                |
-|     |                       | Baltazar Rodríguez          |
-|     |                       | Baltazar Rodríguez          |
+|     |                          |               |
+
 
 
 # V. Agenda tu mentoria 📆
 Si deseas tener una mentoria personalizada en línea con alguno de los mentores, adicional a las de tu proyecto final, sigue estas instrucciones:
 
 Selecciona la liga de abajo de cualquiera de los mentores, te abrirá su calendario con la disponibilidad por día y horarios. Elige el que mejor se acomode a tu necesidad.
-Recuerda llenar el [Formato de Retroalimentación](https://forms.gle/jBK5WprghWwRZ4Pd9) al final de tu mentoría.
+Recuerda llenar el [Formato de Retroalimentación](https://forms.gle/tGKFdRVTbh9GAMMLA) al final de tu mentoría.
 
-- [Diego Parra Robayo](https://calendly.com/diego-parra-robayo/baz-mentoria-1-1)
-- [Fabian Jiménez Villegas](https://calendly.com/fabian_jimenez)
-- [Diego Medina Padilla](https://calendly.com/diego-medina-2/baz-mentoria-1-1)
-- [Juana Cecilia Dávila Barajas](https://calendly.com/juana-cecilia-davila/baz-mentoria-1-1)
-- [Mario Salas Cardenas](https://calendly.com/luis-mario-salas/baz-mentoria-1-1)
-- [Alfredo Arrieta](https://calendly.com/alfredo_arrieta/baz-mentoria-1-1)
-- [Edgar Correa](https://calendly.com/edgar-correa/baz-mentoria-1-1)
-- [Baltazar Rodríguez](https://calendly.com/baltazar-rodriguez/baz-mentoria-1-1?month=2022-11)
+- [Diego Parra Robayo]()
+
 
 # VI. PROYECTO BAZ SUPERAPP / BANCA DIGITAL (Asignado por Líder de Gremio)
 
