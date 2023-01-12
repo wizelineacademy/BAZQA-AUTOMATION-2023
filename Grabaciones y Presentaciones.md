@@ -14,47 +14,47 @@ Aquí encontrarás todas las grabaciones y presentaciones una vez finalizada cad
 
 # CAPACITACIÓN
 # Semana 3
-- [Clase 1_ Lunes 6 Feb - ]()
+- [Clase 1: Lunes 6 Feb - ]()
 - 📺 [Grabacion Lunes 6 Feb]()
-- [Clase 2_ Lunes 6 Feb - ]()
+- [Clase 2: Lunes 6 Feb - ]()
 - 📺 [Grabacion Lunes 6 Feb]()
 
-- [Clase 1 Martes 7 Feb - ]()
+- [Clase 1: Martes 7 Feb - ]()
 - 📺 [Grabacion Martes 7 Feb]()
-- [Clase 2 Martes 7 Feb - ]()
+- [Clase 2: Martes 7 Feb - ]()
 - 📺 [Grabacion Martes 7 Feb]()
 
 # Semana 4
-- [Clase 1_ Lunes 13 Feb - ]()
+- [Clase 1: Lunes 13 Feb - ]()
 - 📺 [Grabacion Lunes 13 Feb]()
-- [Clase 2_ Lunes 13 Feb - ]()
+- [Clase 2: Lunes 13 Feb - ]()
 - 📺 [Grabacion Lunes 13 Feb]()
 
-- [Clase 1 Martes 14 Feb - ]()
+- [Clase 1: Martes 14 Feb - ]()
 - 📺 [Grabacion Martes 14 Feb]()
-- [Clase 2 Martes 14 Feb - ]()
+- [Clase 2: Martes 14 Feb - ]()
 - 📺 [Grabacion Martes 14 Feb]()
 
 # Semana 5
-- [Clase 1_ Lunes 20 Feb - ]()
+- [Clase 1: Lunes 20 Feb - ]()
 - 📺 [Grabacion Lunes 20 Feb]()
-- [Clase 2_ Lunes 20 Feb - ]()
+- [Clase 2: Lunes 20 Feb - ]()
 - 📺 [Grabacion Lunes 20 Feb]()
 
-- [Clase 1 Martes 21 Feb - ]()
+- [Clase 1: Martes 21 Feb - ]()
 - 📺 [Grabacion Martes 21 Feb]()
-- [Clase 2 Martes 21 Feb - ]()
+- [Clase 2: Martes 21 Feb - ]()
 - 📺 [Grabacion Martes 21 Feb]()
 
 # Semana 6
-- [Clase 1_ Lunes 27 Feb - ]()
+- [Clase 1: Lunes 27 Feb - ]()
 - 📺 [Grabacion Lunes 27 Feb]()
-- [Clase 2_ Lunes 27 Feb - ]()
+- [Clase 2: Lunes 27 Feb - ]()
 - 📺 [Grabacion Lunes 27 Feb]()
 
-- [Clase 1 Martes 28 Feb - ]()
+- [Clase 1: Martes 28 Feb - ]()
 - 📺 [Grabacion Martes 28 Feb]()
-- [Clase 2 Martes 28 Feb - ]()
+- [Clase 2: Martes 28 Feb - ]()
 - 📺 [Grabacion Martes 28 Feb]()
 
 
