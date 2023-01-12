@@ -1,7 +1,7 @@
 # Digital Skills Accelerator Training - QA
 
 # I. Bienvenida
-Bienvenido a tu capacitación de Mobile Android la cual consta de 6 semanas de entrenamiento.
+Bienvenido a tu capacitación de **QA Automation** la cual consta de 6 semanas de entrenamiento: 2 de pre-entrenamiento en Git y Python y 4 de capacitación en Automatización.
 
 [Liga Acceso Telegram grupal](https://t.me/+Wcl-Dz0_eXIwMGQx) Importante unirse ya que toda la comunicación del curso se lleva por este medio.
 
@@ -32,7 +32,7 @@ El objetivo de esta etapa es brindarte la oportunidad de actualizar tus conocimi
 - Es un reto creado para poner en práctica los conocimientos adquiridos durante el entrenamiento. 
 
 # III. Curricula del entrenamiento
-Los temas estan divididos en 6 semanas, 3 sesiones por semana. 
+Los temas están divididos en 6 semanas, 4 sesiones por semana. 
 
 ## :bookmark_tabs: Sesiones
 
