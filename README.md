@@ -3,7 +3,7 @@
 # I. Bienvenida
 Bienvenido a tu capacitación de **QA Automation** que consta de 6 semanas de entrenamiento: 2 de pre-entrenamiento en Python y 4 de capacitación en Automatización.
 
-**Telegram**[Liga Acceso Telegram grupal](https://t.me/+Wcl-Dz0_eXIwMGQx) 
+**Telegram** [Liga Acceso Telegram grupal](https://t.me/+Wcl-Dz0_eXIwMGQx) 
 Importante unirse ya que toda la comunicación del curso se lleva por este medio.
 
 ![Calendario](https://github.com/wizelineacademy/BAZQA-AUTOMATION-2023/blob/main/Caledario%20Bloque%203%20QA.png)
