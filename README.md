@@ -3,7 +3,7 @@
 # I. Bienvenida
 Bienvenido a tu capacitación de Mobile Android la cual consta de 6 semanas de entrenamiento.
 
-[Liga Acceso Telegram grupal](https://t.me/+Ly8UcGVIcUoxODBh) Importante unirse ya que toda la comunicación del curso se lleva por este medio.
+[Liga Acceso Telegram grupal](https://t.me/+Wcl-Dz0_eXIwMGQx) Importante unirse ya que toda la comunicación del curso se lleva por este medio.
 
 ![Calendario]()
 
@@ -12,8 +12,8 @@ El objetivo de esta etapa es brindarte la oportunidad de actualizar tus conocimi
 
 **Sesiones en Vivo** 
 - Son clases presenciales que imparten ingenieros de Wizeline, las sesiones tienen una duración de 2 horas.
-- Miércoles y Jueves: 2pm en oficinas de Wizeline - [Liga zoom](https://wizeline.zoom.us/j/88941020491) en caso que no puedan presentarse
-- Viernes: 9am en línea por [Zoom](https://wizeline.zoom.us/j/88941020491)
+- Miércoles y Jueves: 2pm en oficinas de Wizeline - [Liga zoom](https://wizeline.zoom.us/j/84175058495) en caso que no puedan presentarse
+- Viernes: 9am en línea por [Zoom](https://wizeline.zoom.us/j/84175058495)
 
 - En las sesiones en línea, es **obligatorio** tener la cámara prendida.
 - Debes asisitir a mínimo 10 sesiones presenciales para tener derecho a presentar tu Proyecto Final
