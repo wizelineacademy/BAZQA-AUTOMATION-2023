@@ -1,7 +1,7 @@
 ## 📺 Grabaciones y Presentaciones
 Aquí encontrarás todas las grabaciones y presentaciones una vez finalizada cada sesión.
 
-**PRE-ENTRENAMIENTO
+# PRE-ENTRENAMIENTO
 # Semana 1 - Python
 - [Lunes 23 Ene - ]()
 - 📺 [Grabacion Lunes 23 Ene]()
@@ -12,7 +12,7 @@ Aquí encontrarás todas las grabaciones y presentaciones una vez finalizada cad
 - [Lunes 30 Ene - ]()
 - 📺 [Grabacion Lunes 30 Ene]()
 
-**CAPACITACIÓN**
+# CAPACITACIÓN
 # Semana 3
 - [Clase 1_ Lunes 6 Feb - ]()
 - 📺 [Grabacion Lunes 6 Feb]()
