@@ -17,11 +17,11 @@ El objetivo de esta etapa es brindarte la oportunidad de actualizar tus conocimi
 
 - En las sesiones en línea, es **obligatorio** tener la cámara prendida.
 - Debes asisitir a mínimo 10 sesiones presenciales para tener derecho a presentar tu Proyecto Final
-- En caso de no poder asistir a alguna sesión presencial y/o virtual, debes informarnos vía Contacto Wizeline Academy/Telegram, con copia a Lluvia Martínez lluvia.martinez@gesech.com y a tu líder de gremio. 
+- En caso de no poder asistir a alguna sesión presencial y/o virtual, debes informarnos vía Contacto DSA/Telegram, con copia a Lluvia Martínez lluvia.martinez@gesech.com y a tu líder de gremio. 
 
 **Mentorías Grupales**
 - Son sesiones de mentoría en sitio que se llevan a cabo después de las sesiones en vivo para reforzar conocimientos y aclarar dudas. La duración de estas mentorías es de 2 horas.
-- Miércoles y Jueves: 4pm en oficinas de Wizeline
+- Lunes y Martes: 4pm en oficinas de Wizeline
 
 **Mentorías On Demand**
 - Son sesiones en donde podrás interactuar con ingenieros de Wizeline para resolver dudas que tengas sobre los temas cubiertos en las sesiones en vivo, el material de autoestudio o sobre el proyecto final. Las mentorías tienen una duración de 1 hora, son en línea y son bajo demanda. Más abajo están las instrucciones y ligas para solicitar una sesión.
@@ -38,34 +38,19 @@ Los temas estan divididos en 6 semanas, 3 sesiones por semana.
 ## :bookmark_tabs: Sesiones
 
 ### Semana 1
-   1. [Básicos de Kotlin I](/1/Básicas%20de%20Kotlin%20l)
-   2. [Básicos de Kotlin II](/1/B%C3%A1sicos%20de%20Kotlin%20II)
-   3. [Básicos de Kotlin III](/1/B%C3%A1sicos%20de%20Kotlin%20IIl)
+   1. [Automatización en equipos ágiles]()
+   2. [API Testing]()
+   
 
 ### Semana 2 
-   1. [Programación Orientada a Objetos I](/2/Programacion_Orientada_a_Objetos_1)
-   2. [Programación Orientada a Objetos II](/2/Programacion_Orientada_a_Objetos_2)
-   3. [Programación Orientada a Objetos III](/2/Programacion_Orientada_a_Objetos_3)
+   1. [Front End Python (Principios + POM)]()
+   2. [Appium]()
+ 
 
 ### Semana 3
-   1. [Principios SOLID](/3/Principios%20SOLID%20)
-   2. [Introducción a Android Studio](/3/Android%20Studio)
-   3. [Consumo de Servicios con Retrofit](/4/ConsumoRetrofit)
+   1. [Pycharm]()
+
     
-### Semana 4
-   1. Room
-   2. [Mobile App Design: MVVM](/4/MVVM)
-   3. [Viewbinding vs Databinding](/4/ViewBindingVsDataBinding)
-
-### Semana 5
-   1. [Kotlin Coroutines I](/5/Kotlin%20coroutines%20I)
-   2. [Kotlin Coroutines II](/5/Kotlin%20coroutines%20II)
-   3. [Kotlin Coroutines III](/5/Kotlin%20coroutines%20III)
-
-### Semana 6
-   1. [Jetpack Compose I](/6/Jetpack%20Compose%20I)
-   2. [Jetpack Compose II](/6/Jetpack%20Compose%20II)
-   3. [Jetpack Compose III](/6/Jetpack%20Compose%20III)
 
 ## 📺 Grabaciones sesiones y Presentaciones
 
