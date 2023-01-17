@@ -98,7 +98,7 @@ Recuerda llenar el [Formato de Retroalimentación](https://forms.gle/tGKFdRVTbh9
 - **BANCA DIGITAL**: Siguen con sus actividades habituales asignadas por su líder de gremio
 
 
-# VII. Contacto Wizeline Academy
+# VII. Contacto DSA
 Si tienes alguna duda sobre el programa, logística, accesos, etc., por favor contacta al equipo de Wizeline Academy
 
 :email: Email: [baz-dsa@wizeline.com](baz-dsa@wizeline.com)
