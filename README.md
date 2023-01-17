@@ -74,10 +74,10 @@ Para la revisión de tu Capstone Project se te asignó un mentor quien te dará 
 | ----------: | :---------------------------------- | :-------------------------- | :--------------------------
 | 41908       | HERIBERTO HERNANDEZ SANTIAGO        | [Raúl Moctezuma](https://github.com/raulmoctezuma)|[Raúl Moctezuma](https://calendly.com/raulmoctezuma)|
 | 1044015     | LUIS ALBERTO GONZALEZ MENDEZ        | [Raúl Moctezuma](https://github.com/raulmoctezuma)|[Raúl Moctezuma](https://calendly.com/raulmoctezuma)|
-| 91711       | ANA KAREN GAMA VELASCO              | [Narda Ballesteros]()|[Narda Ballesteros](https://calendly.com/nardaballesteros/baz-mentoria-1-1?month=2023-01)|
-| 88433       | KARLA PEÑA AMADOR                   | [Narda Ballesteros]()|[Narda Ballesteros](https://calendly.com/nardaballesteros/baz-mentoria-1-1?month=2023-01)|
-| 72282       | LUIS ALFREDO MEDINA OSIO            | [Octavio Cabrales]()|[Octavio Cabrales]() 
-| 949245      | MARGARITA GIRON CHANEZ              | [Octavio Cabrales]()|[Octavio Cabrales]()|
+| 91711       | ANA KAREN GAMA VELASCO              | [Narda Ballesteros](https://github.com/Aixel17)|[Narda Ballesteros](https://calendly.com/nardaballesteros/baz-mentoria-1-1?month=2023-01)|
+| 88433       | KARLA PEÑA AMADOR                   | [Narda Ballesteros](https://github.com/Aixel17)|[Narda Ballesteros](https://calendly.com/nardaballesteros/baz-mentoria-1-1?month=2023-01)|
+| 72282       | LUIS ALFREDO MEDINA OSIO            | [Octavio Cabrales](https://github.com/octaviocabrales)|[Octavio Cabrales](alendly.com/octavio-cabrales) 
+| 949245      | MARGARITA GIRON CHANEZ              | [Octavio Cabrales](https://github.com/octaviocabrales)|[Octavio Cabrales](alendly.com/octavio-cabrales)|
 | 1059769     | REYNALDO LOPEZ RUBIO                | [Carlos Veloz](https://github.com/Carlos-Veloz)|[Carlos Veloz]()|
 
 
