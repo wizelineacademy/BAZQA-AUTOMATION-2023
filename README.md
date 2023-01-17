@@ -72,7 +72,7 @@ Para la revisión de tu Capstone Project se te asignó un mentor quien te dará 
 
 | ID Empleado | Nombre                              | Mentor |
 | ----------: | :---------------------------------- | :-------------------------- |
-| 1066186     | Alan Ramírez                        | [Ana Anguiano](https://github.com/anaacruz)              |
+| 41908       | HERIBERTO HERNANDEZ SANTIAGO        | [Raúl Moctezuma]((https://github.com/raulmoctezuma)(https://calendly.com/raulmoctezuma)|
 | 1017143     | Edgar Millán                        | [Ana Anguiano](https://github.com/anaacruz)              |
 | 1031329     | Fredy Domínguez                     | [Michel Torres](https://github.com/mtorres0)             |
 | 1028092     | Jorge Gallegos                      | [Michel Torres](https://github.com/mtorres0)             |
@@ -85,7 +85,7 @@ Para la revisión de tu Capstone Project se te asignó un mentor quien te dará 
 
 | ID Empleado | Nombre                              | Mentor | GITHUB.                | Calendly
 | ----------: | :---------------------------------- | :--------------------------     |:--------------------------   
-| 41908      | HERIBERTO HERNANDEZ SANTIAGO        | [Raúl Moctezuma](https://github.com/raulmoctezuma)  |https://calendly.com/raulmoctezuma |
+|       |         | [Raúl Moctezuma](https://github.com/raulmoctezuma)  |https://calendly.com/raulmoctezuma |
 
  
 
