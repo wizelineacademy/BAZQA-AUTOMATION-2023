@@ -70,7 +70,7 @@ Para la revisión de tu Capstone Project se te asignó un mentor quien te dará 
 ### Asignacion Mentores
 
 
-| ID Empleado | Nombre                              | Mentor Github               | Mentor Calendly
+| ID Empleado | Nombre                              | Mentor (Github)               | Mentor (Calendly)
 | ----------: | :---------------------------------- | :-------------------------- | :--------------------------
 | 41908       | HERIBERTO HERNANDEZ SANTIAGO        | [Raúl Moctezuma](https://github.com/raulmoctezuma)|[Raúl Moctezuma](https://calendly.com/raulmoctezuma)|
 | 1044015     | LUIS ALBERTO GONZALEZ MENDEZ        | [Raúl Moctezuma](https://github.com/raulmoctezuma)|[Raúl Moctezuma](https://calendly.com/raulmoctezuma)|
