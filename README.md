@@ -67,7 +67,11 @@ Para aprobar el curso tendrás que desarrollar un proyecto final en el cual refo
 
 Para la revisión de tu Capstone Project se te asignó un mentor quien te dará retroalimentación por medio de comentarios en tu repositorio. Si tienes dudas o quieres revisar más a fondo, puedes agendar una mentoría 1:1.
 
-### Asignacion Mentores
+# V. Agenda tu mentoria 📆
+Si deseas tener una mentoria personalizada en línea con alguno de los mentores, adicional a las de tu proyecto final, sigue estas instrucciones:
+
+Selecciona la liga de abajo de cualquiera de los mentores, te abrirá su calendario con la disponibilidad por día y horarios. Elige el que mejor se acomode a tu necesidad.
+Recuerda llenar el [Formato de Retroalimentación](https://forms.gle/tGKFdRVTbh9GAMMLA) al final de tu mentoría.
 
 
 | ID Empleado | Nombre                              | Mentor (Github)               | Mentor (Calendly)
@@ -78,17 +82,7 @@ Para la revisión de tu Capstone Project se te asignó un mentor quien te dará 
 | 88433       | KARLA PEÑA AMADOR                   |  [Octavio Cabrales](https://github.com/octaviocabrales)|[Octavio Cabrales](https://calendly.com/octavio-cabrales) 
 | 72282       | LUIS ALFREDO MEDINA OSIO            | [Luca Bacasehua](https://github.com/lucabamoW)|[Luca Bacasehua](https://calendly.com/luca-bacasehua/baz-mentoria-1-1 ) 
 | 949245      | MARGARITA GIRON CHANEZ              | [Luca Bacasehua](https://github.com/lucabamoW)|[Luca Bacasehua](https://calendly.com/luca-bacasehua/baz-mentoria-1-1 ) 
-| 1059769     | REYNALDO LOPEZ RUBIO                | [Fernando Badilla](https://github.com/fdiazw)|[Fernando Badilla]()|
-
-
-
-
-
-# V. Agenda tu mentoria 📆
-Si deseas tener una mentoria personalizada en línea con alguno de los mentores, adicional a las de tu proyecto final, sigue estas instrucciones:
-
-Selecciona la liga de abajo de cualquiera de los mentores, te abrirá su calendario con la disponibilidad por día y horarios. Elige el que mejor se acomode a tu necesidad.
-Recuerda llenar el [Formato de Retroalimentación](https://forms.gle/tGKFdRVTbh9GAMMLA) al final de tu mentoría.
+| 1059769     | REYNALDO LOPEZ RUBIO                | [Fernando Badilla](https://github.com/fdiazw)|[Fernando Badilla](https://calendly.com/fdiazw/1h)|
 
 
 
