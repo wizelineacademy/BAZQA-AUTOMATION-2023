@@ -6,7 +6,9 @@ Bienvenido a tu capacitación de **QA Automation** que consta de 6 semanas de en
 [Liga Acceso Telegram grupal](https://t.me/+Wcl-Dz0_eXIwMGQx) 
 Importante unirse ya que toda la comunicación del curso se lleva por este medio.
 
-![Calendario](https://github.com/wizelineacademy/BAZQA-AUTOMATION-2023/blob/main/Calendario%20QA-Automation%20Bloque%203.png)
+Calendario QA Automation Bloque 3<br>
+<img width="482" alt="Calendario QA Automation Bloque 3" src="https://user-images.githubusercontent.com/94467952/214098120-f987f276-1685-405e-858b-d48c79873833.png">
+
 
 # II. Información general del entrenamiento
 El objetivo de esta etapa es brindarte la oportunidad de actualizar tus conocimientos y habilidades en desarrollo de la mano de los ingenieros de Wizeline. El entrenamiento consta de los siguientes elementos: 
