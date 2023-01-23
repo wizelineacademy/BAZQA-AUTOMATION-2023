@@ -15,10 +15,10 @@ El objetivo de esta etapa es brindarte la oportunidad de actualizar tus conocimi
 
 **Sesiones en Vivo** 
 - Son clases presenciales que imparten ingenieros de Wizeline, las sesiones tienen una duración de 2 horas.
-- Lunes y Martes: 9am y 2pm en oficinas de Wizeline - [Liga zoom](https://wizeline.zoom.us/j/84175058495) en caso que no puedan presentarse
+- Lunes y Martes: 9am y 2pm en oficinas de Wizeline - [Liga zoom](https://wizeline.zoom.us/j/84175058495) en caso que no puedan presentarse.
 
 - En las sesiones en línea, es **obligatorio** tener la cámara prendida.
-- Debes asisitir a mínimo 10 sesiones presenciales para tener derecho a presentar tu Proyecto Final
+- Debes asisitir a mínimo 8 sesiones presenciales para tener derecho a presentar tu Proyecto Final
 - En caso de no poder asistir a alguna sesión presencial y/o virtual, debes informarnos vía Contacto DSA/Telegram, con copia a Lluvia Martínez lluvia.martinez@gesech.com y a tu líder de gremio. 
 
 **Mentorías Grupales**
@@ -90,6 +90,7 @@ Recuerda llenar el [Formato de Retroalimentación](https://forms.gle/tGKFdRVTbh9
 | 41908       | HERIBERTO HERNANDEZ SANTIAGO        | [Raúl Moctezuma](https://github.com/raulmoctezuma)|[Raúl Moctezuma](https://calendly.com/raulmoctezuma)|
 | 1044015     | LUIS ALBERTO GONZALEZ MENDEZ        | [Raúl Moctezuma](https://github.com/raulmoctezuma)|[Raúl Moctezuma](https://calendly.com/raulmoctezuma)|
 | 91711       | ANA KAREN GAMA VELASCO              | [Narda Ballesteros](https://github.com/Aixel17)|[Narda Ballesteros](https://calendly.com/nardaballesteros/baz-mentoria-1-1?month=2023-01)|
+|949215       | SAMANTA MARTINEZ ARGUETA            | Narda Ballesteros](https://github.com/Aixel17)|[Narda Ballesteros](https://calendly.com/nardaballesteros/baz-mentoria-1-1?month=2023-01)|
 | 88433       | KARLA PEÑA AMADOR                   |  [Octavio Cabrales](https://github.com/octaviocabrales)|[Octavio Cabrales](https://calendly.com/octavio-cabrales) 
 | 72282       | LUIS ALFREDO MEDINA OSIO            | [Luca Bacasehua](https://github.com/lucabamoW)|[Luca Bacasehua](https://calendly.com/luca-bacasehua/baz-mentoria-1-1 ) 
 | 949245      | MARGARITA GIRON CHANEZ              | [Luca Bacasehua](https://github.com/lucabamoW)|[Luca Bacasehua](https://calendly.com/luca-bacasehua/baz-mentoria-1-1 ) 
