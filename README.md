@@ -37,6 +37,14 @@ Los temas están divididos en 6 semanas, 4 sesiones por semana.
 
 ## :bookmark_tabs: Sesiones
 
+### Propedéutico 
+
+  1. [Onboarding - Git]()
+  2. [Fundamentals]()
+  3. [Ejercicios]()
+  4. [Code challenge]()
+  5. [Pytest]()
+
 ### Semana 1
    1. [Automatización en equipos ágiles]()
    2. [API Testing]()
