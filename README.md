@@ -43,7 +43,7 @@ Los temas están divididos en 6 semanas, 4 sesiones por semana.
 
   1. [Onboarding - Git](https://drive.google.com/file/d/1aOBS3WBkb2Wu83OD96jQzCdB3SSTYeCY/view?usp=sharing)
   2. [Fundamentals](https://drive.google.com/file/d/1Q8hn5TgSPkDJTGx0fINUHXM6Pcxy-2lF/view?usp=sharing)
-  3. [Ejercicios]()
+  3. Ejercicios]()
   4. [Code challenge]()
   5. [Pytest]()
 
