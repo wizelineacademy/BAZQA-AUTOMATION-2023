@@ -3,13 +3,13 @@ Aquí encontrarás todas las grabaciones y presentaciones una vez finalizada cad
 
 # PRE-ENTRENAMIENTO
 # Semana 1 - Python
-- [Lunes 23 Ene - Repaso Git/Python ]()
+- [Lunes 23 Ene - Repaso Git/Python ](https://drive.google.com/file/d/1aOBS3WBkb2Wu83OD96jQzCdB3SSTYeCY/view?usp=sharing)
 - 📺 [Grabacion Lunes 23 Ene]()
-- [Martes 24 Ene - Repaso Python]()
+- [Martes 24 Ene - Repaso Python](https://drive.google.com/file/d/1Q8hn5TgSPkDJTGx0fINUHXM6Pcxy-2lF/view?usp=sharing)
 - 📺 [Grabacion Martes 24 Ene]()
 
 # Semana 2 - Python
-- [Lunes 30 Ene - Repaso Python]()
+- [Lunes 30 Ene - Repaso Pycharm](https://drive.google.com/file/d/1gtU2mGpx3UdgaL1KVT4ayXwPhfd4JsNQ/view?usp=sharing)
 - 📺 [Grabacion Lunes 30 Ene]()
 
 # CAPACITACIÓN
