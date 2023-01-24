@@ -6,7 +6,7 @@ Aquí encontrarás todas las grabaciones y presentaciones una vez finalizada cad
 - [Lunes 23 Ene - Repaso Git/Python ](https://drive.google.com/file/d/1aOBS3WBkb2Wu83OD96jQzCdB3SSTYeCY/view?usp=sharing)
 - 📺 [Grabacion Lunes 23 Ene](https://drive.google.com/file/d/1X_XqyBDChbql13IEyCrt_Pv2RAVs6Mvg/view?usp=sharing)
 - [Martes 24 Ene - Repaso Python](https://drive.google.com/file/d/1Q8hn5TgSPkDJTGx0fINUHXM6Pcxy-2lF/view?usp=sharing)
-- 📺 [Grabacion Martes 24 Ene]()
+- 📺 [Grabacion Martes 24 Ene](https://drive.google.com/file/d/1xvvi1uyP5xiHM8q7lgMdUBULKSZfvljs/view?usp=sharing)
 
 # Semana 2 - Python
 - [Lunes 30 Ene - Repaso Pycharm](https://drive.google.com/file/d/1gtU2mGpx3UdgaL1KVT4ayXwPhfd4JsNQ/view?usp=sharing)
