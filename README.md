@@ -49,7 +49,8 @@ Los temas están divididos en 6 semanas, 4 sesiones por semana.
 
 ### Semana 1
    1. [Automatización en equipos ágiles]()
-   2. [API Testing]()
+   2. [TDD/Bdd]()
+   3. [API Testing]()
    
 
 ### Semana 2 
