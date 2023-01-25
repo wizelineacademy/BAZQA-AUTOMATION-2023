@@ -43,9 +43,10 @@ Los temas están divididos en 6 semanas, 4 sesiones por semana.
 
   1. [Onboarding - Git](https://drive.google.com/file/d/1aOBS3WBkb2Wu83OD96jQzCdB3SSTYeCY/view?usp=sharing)
   2. [Fundamentals](https://drive.google.com/file/d/1Q8hn5TgSPkDJTGx0fINUHXM6Pcxy-2lF/view?usp=sharing)
-  3. Ejercicios]()
-  4. [Code challenge]()
-  5. [Pytest]()
+  3. [Ejercicios - Dia 1](https://drive.google.com/file/d/1Bzir7iAddCS2s4qgdcHtrkIuqkezElG2/view?usp=share_link)
+  4. [Ejercicios resueltos - Dia 1](https://drive.google.com/file/d/1cyadZzhDXFM9rnqbm-3i31obsd0EJWHC/view?usp=share_link)
+  5. [Code challenge]()
+  6. [Pytest]()
 
 ### Semana 1
    1. [Automatización en equipos ágiles]()
