@@ -11,7 +11,7 @@ Aquí encontrarás todas las grabaciones y presentaciones una vez finalizada cad
 # Semana 2 - Python
 - [Lunes 30 Ene - Repaso Pycharm](https://drive.google.com/file/d/1gtU2mGpx3UdgaL1KVT4ayXwPhfd4JsNQ/view?usp=sharing)
 - 📺 [Grabacion Lunes 30 Ene]()
-- [Clase 1: Martes 31 Ene - Automatización en equipos ágiles](https://drive.google.com/file/d/1C1ix6RToQJiIdZroMhHXzGzMjmqpvJtb/view?usp=sharing)
+- [Clase 1: Martes 31 Ene - Automatización en equipos ágiles](https://drive.google.com/file/d/1f4InOW4dv7zirmE8aaRfGO48h50Npf3R/view?usp=sharing)
 - 📺 [Grabacion Clase 1 Martes 31 Ene]()
 - [Clase 2: Martes 31 Ene - TBD/BDD](https://drive.google.com/file/d/1ItxlirbxeNjGuUtFwp6hH8FZzzFh7MT0/view?usp=sharing)
 - 📺 [Grabacion Clase 2 Martes 31 Ene]()
