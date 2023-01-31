@@ -108,5 +108,6 @@ Se sugiere al estudiante familiarizarse con la aplicación saucedemo de manera q
 - Finalizar compra. Una vez que ha agregado múltiples artículos a su carrito de compras, proceder a concluir el proceso de pago y envío. Validar que puede realizar una compra sin ningún problema.
 
 **Opcional**
+
 Realizar tap sobre el filtro que se encuentra en la esquina superior derecha de la página de productos, elegir la opción ordenar por precio de “menor a mayor” y validar que los artículos de la página en cuestión están correctamente ordenados.
 
