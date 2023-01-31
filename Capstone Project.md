@@ -18,9 +18,9 @@ Usted es un Ingeniero de Calidad de Software en BAZ y acaba de ser asignado a un
 - Behave
 
 **Las fecha de entrega son las siguientes:**
-- **Proyecto de API**: 17 de Febrero
-- **Proyecto de POM en Python**: 24 de Febrero
-- **Proyecto de Appium**: 2 Marzo
+- **Proyecto de API**: Primer entregable - 17 de Febrero
+- **Proyecto de POM en Python**: Segundo entregable - 24 de Febrero
+- **Proyecto de Appium**: Tercer entregable - 2 Marzo
 
 
 
