@@ -60,7 +60,7 @@ En este proyecto construiremos un framework de automatización desde cero siguie
 Se sugiere al estudiante familiarizarse con la aplicación saucedemo de manera que pueda replicar los casos de prueba a mano antes de proceder a automatizarlos. 
 
 **Para que su proyecto sea aceptado, debe cumplir con los siguiente requisitos:**
-El proyecto debe iniciarse correctamente a través de los comandos vistos en clase. Esto significa que como resultado debe estar organizado en carpetas, páginas, datos, reportes, así como cualquier otra carpeta o archivo necesario para la ejecución y correcto funcionamiento del proyecto.
+- El proyecto debe iniciarse correctamente a través de los comandos vistos en clase. Esto significa que como resultado debe estar organizado en carpetas, páginas, datos, reportes, así como cualquier otra carpeta o archivo necesario para la ejecución y correcto funcionamiento del proyecto.
 - Implementar el patrón de diseño Page Object Model (POM) y su correcta distribución de carpetas y archivos.
 - Utilizar selectores que sean fáciles de leer, mantenibles, y cumpliendo con las mejores prácticas descritas.
 - Hacer uso de “Fixtures” de manera que el código resultante se beneficie de esta funcionalidad. Utilice esta funcionalidad tanto como usted crea conveniente.
