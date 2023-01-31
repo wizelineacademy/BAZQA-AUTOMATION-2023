@@ -10,7 +10,7 @@ Usted es un Ingeniero de Calidad de Software en BAZ y acaba de ser asignado a un
 
 **Proyecto de Python**: TBD
 
-**La elección del software a utilizarse será:
+**La elección del software a utilizarse será:**
 - Python
 - Pycharm
 - Appium
