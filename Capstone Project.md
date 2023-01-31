@@ -5,7 +5,9 @@ Usted es un Ingeniero de Calidad de Software en BAZ y acaba de ser asignado a un
 **El entregable final se compone en su totalidad de las siguientes partes:**
 
 **Proyecto de API**: Un proyecto de API el cual realizará una serie de solicitudes contra la API de Pokemon. 
+
 **Proyecto de Appium**: Un framework que ejecutará una series de escenarios de automatización en móvil sobre la aplicación de  saucedemo. 
+
 **Proyecto de Python**: TBD
 
 **La elección del software a utilizarse será:**
