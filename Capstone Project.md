@@ -3,6 +3,7 @@
 Usted es un Ingeniero de Calidad de Software en BAZ y acaba de ser asignado a un nuevo proyecto de automatización. Este proyecto tiene por objetivo que usted ponga en práctica lo aprendido en semanas anteriores acerca de cómo crear un marco de trabajo (framework) de automatización siguiendo guías, patrones de diseño y las mejores prácticas de calidad de la industria.
 
 **El entregable final se compone en su totalidad de las siguientes partes:**
+
 **Proyecto de API**: Un proyecto de API el cual realizará una serie de solicitudes contra la API de Pokemon.
 **Proyecto de Appium**: Un framework que ejecutará una series de escenarios de automatización en móvil sobre la aplicación de  saucedemo
 **Proyecto de Python**: TBD
