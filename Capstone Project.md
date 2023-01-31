@@ -111,3 +111,11 @@ Se sugiere al estudiante familiarizarse con la aplicación saucedemo de manera q
 
 Realizar tap sobre el filtro que se encuentra en la esquina superior derecha de la página de productos, elegir la opción ordenar por precio de “menor a mayor” y validar que los artículos de la página en cuestión están correctamente ordenados.
 
+# Enviando los entregables
+Para publicar tu trabajo, deberás seguir estos pasos:
+
+- Crear un pull request, apuntando a la rama master
+[Llenar este formato](https://forms.gle/Eq3NFcA1xusAgqfX8)
+- Mantente al pendiente de la retroalimentación.
+- Genera los cambios conforme a los comentarios de tu mentor.
+
