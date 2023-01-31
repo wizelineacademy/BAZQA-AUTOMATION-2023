@@ -116,6 +116,6 @@ Para publicar tu trabajo, deberás seguir estos pasos:
 
 - Crear un pull request, apuntando a la rama master
 [Llenar este formato](https://forms.gle/Eq3NFcA1xusAgqfX8)
-- Mantente al pendiente de la retroalimentación.
-- Genera los cambios conforme a los comentarios de tu mentor.
+- Mantenerte al pendiente de la retroalimentación.
+- Generar los cambios conforme a los comentarios de tu mentor.
 
