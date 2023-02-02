@@ -93,7 +93,7 @@ Recuerda llenar el [Formato de Retroalimentación](https://forms.gle/tGKFdRVTbh9
 | 1044015     | LUIS ALBERTO GONZALEZ MENDEZ        | [Raúl Moctezuma](https://github.com/raulmoctezuma)|[Raúl Moctezuma](https://calendly.com/raulmoctezuma)|
 | 91711       | ANA KAREN GAMA VELASCO              | [Narda Ballesteros](https://github.com/Aixel17)|[Narda Ballesteros](https://calendly.com/nardaballesteros/baz-mentoria-1-1?month=2023-01)|
 |949215       | SAMANTA MARTINEZ ARGUETA            | [Narda Ballesteros](https://github.com/Aixel17)|[Narda Ballesteros](https://calendly.com/nardaballesteros/baz-mentoria-1-1?month=2023-01)|
-| 88433       | KARLA PEÑA AMADOR                   |  [Octavio Cabrales](https://github.com/octaviocabrales)|[Octavio Cabrales](https://calendly.com/octavio-cabrales) 
+| 88433       | KARLA PEÑA AMADOR                   |  [Octavio Cabrales](https://github.com/octaviocabrales)|[Fernando Badilla](https://calendly.com/fdiazw/1h) 
 | 72282       | LUIS ALFREDO MEDINA OSIO            | [Luca Bacasehua](https://github.com/lucabamoW)|[Luca Bacasehua](https://calendly.com/luca-bacasehua/baz-mentoria-1-1 ) 
 | 949245      | MARGARITA GIRON CHANEZ              | [Luca Bacasehua](https://github.com/lucabamoW)|[Luca Bacasehua](https://calendly.com/luca-bacasehua/baz-mentoria-1-1 ) 
 | 1059769     | REYNALDO LOPEZ RUBIO                | [Fernando Badilla](https://github.com/fdiazw)|[Fernando Badilla](https://calendly.com/fdiazw/1h)|
