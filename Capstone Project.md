@@ -41,6 +41,8 @@ El objetivo de este proyecto es poder construir colecciones de Postman, y ordena
 - Agregar una función de prueba que valide el tiempo de respuesta bajo de 700 ms
 - Crear una función para validar el json schema (esto aplica para movimientos - movimiento del punto número 1.
 - Usar variables de ambiente durante todo el proceso.
+- Hacer uso de la pestaña "Pre-request Script" cuando sea posible crear una variable, y asignarle un valor antes de realizar una petición al servidor.
+- Incluir una colección exclusivamente para escenarios negativos, como por ejemplo: consultar la información de un pokemon inexistente, en este caso recuerde evaluar correctamente el mensaje de error (HTTP Status Code, y el mensaje de error asociado a la respuesta).
 
 
 Envío para revisión: 17 de Febrero
