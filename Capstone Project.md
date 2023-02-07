@@ -44,6 +44,8 @@ El objetivo de este proyecto es poder construir colecciones de Postman, y ordena
 - Hacer uso de la pestaña "Pre-request Script" cuando sea posible crear una variable, y asignarle un valor antes de realizar una petición al servidor.
 - Incluir una colección exclusivamente para escenarios negativos, como por ejemplo: consultar la información de un pokemon inexistente, en este caso recuerde evaluar correctamente el mensaje de error (HTTP Status Code, y el mensaje de error asociado a la respuesta).
 
+**Envío para revisión:** 
+Los entregables de este proyecto son la colección generada por Postman en formato .json, al igual que un archivo para las variables de ambiente, igual en formato .json.
 
 Envío para revisión: 17 de Febrero
 
