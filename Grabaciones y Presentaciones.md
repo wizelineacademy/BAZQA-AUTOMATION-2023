@@ -19,7 +19,7 @@ Aquí encontrarás todas las grabaciones y presentaciones una vez finalizada cad
 # CAPACITACIÓN
 # Semana 3
 - [Clase 1: Martes 7 Feb - API Testing](https://drive.google.com/file/d/17MUyfKZ1IAkA6WjzY9uuFClpUA710PYF/view?usp=sharing)
-- 📺 [Grabacion Martes 7 Feb]()
+- 📺 [Grabacion Martes 7 Feb](https://drive.google.com/file/d/1uPjF4XWL6qLqBr5RP41Q6AB4FXARZZ5A/view?usp=sharing)
 - [Clase 2: Martes 7 Feb - API Testing Workshop](https://drive.google.com/file/d/17MUyfKZ1IAkA6WjzY9uuFClpUA710PYF/view?usp=sharing)
 - 📺 [Grabacion Martes 7 Feb]()
 
