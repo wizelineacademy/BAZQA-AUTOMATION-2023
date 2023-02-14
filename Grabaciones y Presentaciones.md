@@ -25,7 +25,7 @@ Aquí encontrarás todas las grabaciones y presentaciones una vez finalizada cad
 
 # Semana 4
 - [Clase 1: Lunes 13 Feb - Appium](https://drive.google.com/file/d/1i4w87r6DyS8H5mLHiitMFscVFre9vtP2/view?usp=sharing)
-- 📺 [Grabacion Lunes 13 Feb]()
+- 📺 [Grabacion Lunes 13 Feb](https://drive.google.com/file/d/1k4U0eMAAjlC2a-N8v2rJWtD79QW8pw2w/view?usp=sharing)
 - Clase 2: Lunes 13 Feb - Appium
 - 📺 [Grabacion Lunes 13 Feb]()
 
