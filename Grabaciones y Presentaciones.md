@@ -14,7 +14,7 @@ Aquí encontrarás todas las grabaciones y presentaciones una vez finalizada cad
 - [Clase 1: Martes 31 Ene - Automatización en equipos ágiles](https://drive.google.com/file/d/1f4InOW4dv7zirmE8aaRfGO48h50Npf3R/view?usp=sharing)
 - 📺 [Grabacion Clase 1 Martes 31 Ene](https://drive.google.com/file/d/1r8TOnh-9jnAXJkLml2hOUa29Qvv5hg96/view?usp=sharing)
 - [Clase 2: Martes 31 Ene - TBD/BDD](https://drive.google.com/file/d/1ItxlirbxeNjGuUtFwp6hH8FZzzFh7MT0/view?usp=sharing)
-- 📺 [Grabacion Clase 2 Martes 31 Ene]()
+- 📺 [Grabacion Clase 2 Martes 31 Ene](https://drive.google.com/file/d/1vrZ1l59Bi1eNjT_szOVH2kjpOAJ91yal/view?usp=sharing)
 
 # CAPACITACIÓN
 # Semana 3
