@@ -56,7 +56,7 @@ Los temas están divididos en 6 semanas, 4 sesiones por semana.
 
 ### Semana 2 
    1. [Appium]()
-   2. [Front End Python (Principios + POM)]()
+   2. [Front End Python (Principios + POM)](https://github.com/wizelineacademy/BAZQA-AUTOMATION-2023/tree/main/semana2-sesion2)
  
 
 ### Semana 3
