@@ -55,8 +55,8 @@ Los temas están divididos en 6 semanas, 4 sesiones por semana.
    
 
 ### Semana 2 
-   1. [Front End Python (Principios + POM)]()
-   2. [Appium]()
+   1. [Appium]()
+   2. [Front End Python (Principios + POM)]()
  
 
 ### Semana 3
