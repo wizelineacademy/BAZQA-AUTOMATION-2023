@@ -19,7 +19,7 @@ El objetivo de esta etapa es brindarte la oportunidad de actualizar tus conocimi
 
 - En las sesiones en línea, es **obligatorio** tener la cámara prendida.
 - Debes asisitir a mínimo 8 sesiones presenciales para tener derecho a presentar tu Proyecto Final
-- En caso de no poder asistir a alguna sesión presencial y/o virtual, debes informarnos vía Contacto DSA/Telegram, con copia a Lluvia Martínez lluvia.martinez@gesech.com y a tu líder de gremio. 
+- En caso de no poder asistir a alguna sesión presencial y/o virtual, debes informarnos vía Contacto DSA/Telegram, con copia a [Mercedes Vargas] (mevargas@gesech.com)  y a tu líder de gremio. 
 
 **Mentorías Grupales**
 - Son sesiones de mentoría en sitio que se llevan a cabo después de las sesiones en vivo para reforzar conocimientos y aclarar dudas. La duración de estas mentorías es de 2 horas.
