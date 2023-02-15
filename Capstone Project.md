@@ -118,12 +118,11 @@ Realizar tap sobre el filtro que se encuentra en la esquina superior derecha de 
 # Enviando los entregables
 Para publicar tu trabajo, deberás seguir estos pasos:
 
-- Crear un pull request, apuntando a la rama master. La rama del pull request deberá tener la siguiente nomenclatura.
-Folder:  entregables>nombre_completo
-1er subfolder: API
-2do subfolder: POM
-3er subfolder: APPIUM
-
+- Crear un pull request, apuntando a la rama master. La rama del pull request deberá tener la siguiente nomenclatura. <br>
+* Folder: entregables>nombre_completo <br>
+* 1er subfolder: API 
+* 2do subfolder: POM 
+* 3er subfolder: APPIUM
 [Llenar este formato](https://forms.gle/Eq3NFcA1xusAgqfX8)
 - Mantenerte al pendiente de la retroalimentación.
 - Generar los cambios conforme a los comentarios de tu mentor.
