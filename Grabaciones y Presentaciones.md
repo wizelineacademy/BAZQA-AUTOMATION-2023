@@ -27,12 +27,12 @@ Aquí encontrarás todas las grabaciones y presentaciones una vez finalizada cad
 - [Clase 1: Lunes 13 Feb - Appium](https://drive.google.com/file/d/1i4w87r6DyS8H5mLHiitMFscVFre9vtP2/view?usp=sharing)
 - 📺 [Grabacion Lunes 13 Feb](https://drive.google.com/file/d/1k4U0eMAAjlC2a-N8v2rJWtD79QW8pw2w/view?usp=sharing)
 - Clase 2: Lunes 13 Feb - Appium
-- 📺 [Grabacion Lunes 13 Feb]()
+- 📺 [Grabacion Lunes 13 Feb](https://drive.google.com/file/d/1vrZ1l59Bi1eNjT_szOVH2kjpOAJ91yal/view?usp=sharing)
 
 - [Clase 1: Martes 14 Feb - Front End Python (Principios + POM)](https://drive.google.com/file/d/1VQEIKbY7PJRwuwWOeTKTqbKhj9RTRvjk/view?usp=sharing)
-- 📺 [Grabacion Martes 14 Feb]()
+- 📺 [Grabacion Martes 14 Feb](https://drive.google.com/file/d/1mZgN3ye71-MnnN7McAMJEwsyTcrY4Nq-/view?usp=sharing)
 - Clase 2: Martes 14 Feb - Front End Python (Principios + POM)
-- 📺 [Grabacion Martes 14 Feb]()
+- 📺 [Grabacion Martes 14 Feb](https://drive.google.com/file/d/14Rw7Se0bB-7XvfVITG9rDjelBV8ck8Hb/view?usp=sharing)
 
 # Semana 5
 - [Clase 1: Lunes 20 Feb - Pycharm]()
