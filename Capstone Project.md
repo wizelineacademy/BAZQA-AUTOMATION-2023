@@ -122,7 +122,7 @@ Para publicar tu trabajo, deberás seguir estos pasos:
 * Folder: entregables>nombre_completo <br>
 * 1er subfolder: API 
 * 2do subfolder: POM 
-* 3er subfolder: APPIUM
+* 3er subfolder: APPIUM <br>
 [Llenar este formato](https://forms.gle/Eq3NFcA1xusAgqfX8)
 - Mantenerte al pendiente de la retroalimentación.
 - Generar los cambios conforme a los comentarios de tu mentor.
