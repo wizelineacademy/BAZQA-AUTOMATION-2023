@@ -49,6 +49,9 @@ Sesión 2
 - PyYAML:
     YAML syntax. https://pyyaml.org/wiki/PyYAMLDocumentation
 
+- String Formatting:
+    https://docs.python.org/3/library/stdtypes.html#printf-style-string-formatting 
+
 - Concepto de Page Object:
     https://www.selenium.dev/documentation/test_practices/encouraged/page_object_models/ 
     https://testautomation.dev/getting-started-with-page-object-pattern-for-your-selenium-tests/  
