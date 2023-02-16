@@ -36,8 +36,8 @@ Sesión 2
 
 ## 💻 Actividades
 
-    - Ejercicio realizado durante la clase.
-      [DialerAutomationTest.zip](https://github.com/wizelineacademy/BAZQA-AUTOMATION-2023/files/10758692/DialerAutomationTest.zip)
+- Ejercicio realizado durante la clase.
+    [DialerAutomationTest.zip](https://github.com/wizelineacademy/BAZQA-AUTOMATION-2023/files/10758692/DialerAutomationTest.zip)
 
 
 ## 📚 Referencias
