@@ -42,19 +42,19 @@ Sesión 2
 
 ## 📚 Referencias
 - Pytest:
-    https://docs.pytest.org
-    Parametrizing fixtures. https://docs.pytest.org/en/6.2.x/fixture.html#fixture-parametrize
-    https://pytest-incremental.readthedocs.io/runner.html
+    - https://docs.pytest.org
+    - Parametrizing fixtures. https://docs.pytest.org/en/6.2.x/fixture.html#fixture-parametrize
+    - https://pytest-incremental.readthedocs.io/runner.html
     
 - PyYAML:
-    YAML syntax. https://pyyaml.org/wiki/PyYAMLDocumentation
+    - YAML syntax. https://pyyaml.org/wiki/PyYAMLDocumentation
 
 - String Formatting:
-    https://docs.python.org/3/library/stdtypes.html#printf-style-string-formatting 
+    - https://docs.python.org/3/library/stdtypes.html#printf-style-string-formatting 
 
 - Concepto de Page Object:
-    https://www.selenium.dev/documentation/test_practices/encouraged/page_object_models/ 
-    https://testautomation.dev/getting-started-with-page-object-pattern-for-your-selenium-tests/  
+    - https://www.selenium.dev/documentation/test_practices/encouraged/page_object_models/ 
+    - https://testautomation.dev/getting-started-with-page-object-pattern-for-your-selenium-tests/  
 
 ## 📺 Enlace a la presentación
 
