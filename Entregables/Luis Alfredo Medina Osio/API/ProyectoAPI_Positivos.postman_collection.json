@@ -1,0 +1,219 @@
+{
+	"info": {
+		"_postman_id": "80f15f3d-3345-4c17-9a25-a42df58d2bef",
+		"name": "ProyectoAPI_Positivos",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Obtener Pokemon",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Validar código de exito 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Validar respuesta de API menor a 700ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(700);\r",
+							"});\r",
+							"\r",
+							"// Validar que el pokemon elegido se encuentra en el response del API  \r",
+							"pm.test(\"Validar que el nombre de mi pokemon esta en el response del api\", function () {\r",
+							"    pm.expect(pm.response.text()).to.include(pm.environment.get(\"namePokemon\"));\r",
+							"});\r",
+							"\r",
+							"//Validar schema\r",
+							"pm.test(\"Validar el Schema del movimiento\", function() {\r",
+							"    const schema = {\r",
+							"        \"properties\": {\r",
+							"            \"move\": {\r",
+							"                \"properties\":{\r",
+							"                    \"name\": {\"type\": \"string\"},\r",
+							"                    \"url\": {\"type\": \"string\"},\r",
+							"                }\r",
+							"            }\r",
+							"        }\r",
+							"    }\r",
+							"    pm.response.to.have.jsonSchema(schema);\r",
+							"});\r",
+							"\r",
+							"//Elegir el primer movimiento y se guarda la información de nombre y url en variables de ambiente\r",
+							"pm.test(\"Obtener primer movimiento\", function () {\r",
+							"    var jsonData = pm.response.json()\r",
+							"    var firstMove = jsonData['moves'][0];\r",
+							"    var nameFirstMove = firstMove['move']['name'];\r",
+							"    pm.environment.set(\"envFirstMoveName\", nameFirstMove);\r",
+							"    console.log(nameFirstMove)\r",
+							"    var urlFirstMove = firstMove['move']['url'];\r",
+							"    pm.environment.set(\"envFirstMoveUrl\", urlFirstMove);\r",
+							"    console.log(urlFirstMove)\r",
+							"});\r",
+							"\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							"pm.environment.set(\"namePokemon\", \"charmander\");"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{URL_Principal}}{{namePokemon}}",
+					"host": [
+						"{{URL_Principal}}{{namePokemon}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Obtener y Validar Movimientos",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Validar código de éxito 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Validar respuesta de API menor a 700ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(700);\r",
+							"});\r",
+							"\r",
+							"//Obtener la información del movimiento seleccionado y crear constante para mantenerla\r",
+							"const respuestaMove = pm.response.json();\r",
+							"\r",
+							"//Validar el nombre del movimiento dentro de la información del movimiento seleccionado\r",
+							"pm.test(\"Validar que exista el movimiento\", function(){\r",
+							"    pm.expect(respuestaMove.name).to.eql(pm.environment.get(\"envFirstMoveName\"))\r",
+							"});\r",
+							"\r",
+							"//Validar que el nombre del pokemos esta dentro de learned_by_pokemon\r",
+							"pm.test(\"Validar que se exista el nombre del pokemon favorito en learned_by_pokemon\", function(){\r",
+							"    var nombrePokemon = respuestaMove['learned_by_pokemon'][0];\r",
+							"    pm.expect(nombrePokemon.name).to.eql(pm.environment.get(\"namePokemon\"))\r",
+							"});\r",
+							"\r",
+							"//Se guarda url del pokemon elegido \r",
+							"pm.test(\"Obtener url pokemon\", function () {\r",
+							"    var jsonMoveData = pm.response.json()\r",
+							"    console.log(jsonMoveData)\r",
+							"    var firstMove = jsonMoveData['learned_by_pokemon'][0];\r",
+							"    console.log(firstMove)\r",
+							"    var urlPokemon = firstMove['url'];\r",
+							"    console.log(urlPokemon)\r",
+							"    pm.environment.set(\"envUrlPokemon\", urlPokemon);\r",
+							"    \r",
+							"});\r",
+							"\r",
+							"\r",
+							"\r",
+							"\r",
+							"\r",
+							"\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{envFirstMoveUrl}}",
+					"host": [
+						"{{envFirstMoveUrl}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Obtener Movimiento por URL",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"//Validar código HTTP de éxito\r",
+							"pm.test(\"Validar código de éxito 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"//Validar tiempo de respuesta\r",
+							"pm.test(\"Validar respuesta de API menor a 700ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(700);\r",
+							"});\r",
+							"\r",
+							"//Obtener la información del movimiento seleccionado y crear constante para mantenerla\r",
+							"const respuestaMove = pm.response.json();\r",
+							"\r",
+							"//Validar que la url esta dentro de learned_by_pokemon\r",
+							"pm.test(\"Validar que exista ls url del pokemon favorito en learned_by_pokemon\", function(){\r",
+							"    var direccionPokemon = respuestaMove['learned_by_pokemon'][0];\r",
+							"    pm.expect(direccionPokemon.url).to.eql(pm.environment.get(\"envUrlPokemon\"))\r",
+							"});\r",
+							"\r",
+							"\r",
+							"//Limpiar variables de ambiente\r",
+							"//pm.environment.unset(\"namePokemon\");\r",
+							"//pm.environment.unset(\"envFirstMoveName\");\r",
+							"//pm.environment.unset(\"envFirstMoveUrl\");\r",
+							"//pm.environment.unset(\"envUrlPokemon\");\r",
+							"\r",
+							"\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{envFirstMoveUrl}}",
+					"host": [
+						"{{envFirstMoveUrl}}"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}
