@@ -1,0 +1,266 @@
+{
+	"info": {
+		"_postman_id": "fbe93261-d5b1-44c7-a1e4-278d9818920e",
+		"name": "Capstone Samanta",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Pokemon",
+			"item": [
+				{
+					"name": "Nombre",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"\r",
+									"pm.test(\"Obtener variables de nombre y url de movimiento\", function () {\r",
+									"   let responseData = pm.response.json();\r",
+									"    \r",
+									"    pm.environment.set(\"nombre de pokemon\", responseData.forms[0].name);\r",
+									"\r",
+									"    pm.environment.set(\"nombremovimiento\", responseData.moves[0].move.name);\r",
+									"\r",
+									"    pm.environment.set(\"URL\", responseData.moves[0].move.url); \r",
+									"\r",
+									"});\r",
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://pokeapi.co/api/v2/pokemon/charmander",
+							"protocol": "https",
+							"host": [
+								"pokeapi",
+								"co"
+							],
+							"path": [
+								"api",
+								"v2",
+								"pokemon",
+								"charmander"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Movimiento url",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									"var schema = {\r",
+									"    \"type\": \"object\",\r",
+									"    \"properties\": {\r",
+									"        \"use_after\": {\r",
+									"            \"type\": \"array\",\r",
+									"            \"items\": [\r",
+									"                {\r",
+									"                    \"type\": \"object\",\r",
+									"                    \"properties\": {\r",
+									"                        \"name\": {\r",
+									"                            \"type\": \"string\"\r",
+									"                        },\r",
+									"                        \"url\": {\r",
+									"                            \"type\": \"string\"\r",
+									"                        }\r",
+									"                    }\r",
+									"                }\r",
+									"            ]\r",
+									"        }\r",
+									"    }\r",
+									"}\r",
+									"\r",
+									"pm.variables.set(\"schema\",schema);"
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"var schema = pm.variables.get(\"schema\")\r",
+									"var jsonData = JSON.parse(responseBody);\r",
+									"\r",
+									"pm.test('Comparación de response y schema', function () {    \r",
+									"    pm.expect(jsonData).to.have.jsonSchema(schema);});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}",
+							"host": [
+								"{{URL}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Movimiento variable",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Obteniendo variable name\", function () {\r",
+									"  \r",
+									"    let responseData = pm.response.json();\r",
+									"    pm.environment.set(\"name\", responseData.learned_by_pokemon[0].name);\r",
+									"    \r",
+									"});\r",
+									"\r",
+									"pm.test(\"Your test name\", function () {\r",
+									"    var jsonData = pm.response.json();\r",
+									"    let nombrepokemon = pm.environment.get(\"name\");\r",
+									"    console.log(nombrepokemon);\r",
+									"    \r",
+									"    pm.expect(jsonData.learned_by_pokemon).to.eql(nombrepokemon);\r",
+									"    \r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://pokeapi.co/api/v2/move/5",
+							"protocol": "https",
+							"host": [
+								"pokeapi",
+								"co"
+							],
+							"path": [
+								"api",
+								"v2",
+								"move",
+								"5"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"pm.test(\"Código de respuesta\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"",
+							"pm.test(\"Tiempo de respuesta menor a 700ms\", function () {",
+							"    pm.expect(pm.response.responseTime).to.be.below(700);",
+							"});",
+							"",
+							""
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Escenarios Negativos",
+			"item": [
+				{
+					"name": "Pokemon no existente",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": null
+					},
+					"response": []
+				}
+			],
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"pm.environment.set(\"pokemonNoExistente\",\"charmande\");"
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "name",
+			"value": ""
+		}
+	]
+}
