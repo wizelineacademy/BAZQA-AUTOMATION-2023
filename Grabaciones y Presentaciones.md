@@ -34,7 +34,13 @@ Aquí encontrarás todas las grabaciones y presentaciones una vez finalizada cad
 - Clase 2: Martes 14 Feb - Front End Python (Principios + POM)
 - 📺 [Grabacion Martes 14 Feb](https://drive.google.com/file/d/14Rw7Se0bB-7XvfVITG9rDjelBV8ck8Hb/view?usp=sharing)
 
+# REPASO
 # Semana 5
+- [Clase 1: Lunes 20 Feb - Python](https://drive.google.com/file/d/1i3QJcoD70_hxbHXQpaFWcffHAFNJ_o8Y/view?usp=sharing)
+- [Clase 2: Lunes 20 Feb - Revisión 1er entregable](https://drive.google.com/file/d/1LZRgjx0V1ucIdT6W8R_2NarJO1iOkm3d/view?usp=sharing)
+- [Clase 3: Lunes 20 Feb - Repaso](https://drive.google.com/file/d/1NynP09G6JQNieJs-mqeiGEeen8OZ-3v7/view?usp=sharing)
+- 
+# Semana 6
 - [Clase 1: Lunes 20 Feb - Pycharm]()
 - 📺 [Grabacion Lunes 20 Feb]()
 - [Clase 2: Lunes 20 Feb - Appium]()
