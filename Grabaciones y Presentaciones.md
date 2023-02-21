@@ -40,16 +40,6 @@ Aquí encontrarás todas las grabaciones y presentaciones una vez finalizada cad
 - [Clase 2: Lunes 20 Feb - Revisión 1er entregable](https://drive.google.com/file/d/1LZRgjx0V1ucIdT6W8R_2NarJO1iOkm3d/view?usp=sharing)
 - [Clase 3: Lunes 20 Feb - Repaso](https://drive.google.com/file/d/1NynP09G6JQNieJs-mqeiGEeen8OZ-3v7/view?usp=sharing)
 - 
-# Semana 6
-- [Clase 1: Lunes 20 Feb - Pycharm]()
-- 📺 [Grabacion Lunes 20 Feb]()
-- [Clase 2: Lunes 20 Feb - Appium]()
-- 📺 [Grabacion Lunes 20 Feb]()
-
-- [Clase 1: Martes 21 Feb - Appium]()
-- 📺 [Grabacion Martes 21 Feb]()
-- [Clase 2: Martes 21 Feb - Appium]()
-- 📺 [Grabacion Martes 21 Feb]()
 
 # Semana 6
 - [Clase 1: Lunes 27 Feb - Revisión de Capstone project]()
