@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "63b97a74-dd18-402c-99f5-f25f15a2364b",
+		"_postman_id": "acb4728f-958d-4d22-ac1e-2497e1dc3b63",
 		"name": "Pokemon",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "3865900"
@@ -27,19 +27,21 @@
 									"    }",
 									"};",
 									"",
-									"var data1 = r.moves[0].move.name;",
-									"var data2 = r.moves[0].move.url;",
+									"var nombre = r.moves[0].move.name;",
+									"var url = r.moves[0].move.url;",
 									"",
-									"console.log(data1)",
-									"console.log(data2)",
 									"",
-									"pm.test('Schema valido', function () {",
-									"    pm.expect(tv4.validate(data1, schema)).to.be.true;",
-									"    pm.expect(tv4.validate(data2, schema)).to.be.true;",
+									"",
+									"pm.test('Nombre validado en esquema', function () {",
+									"    pm.expect(tv4.validate(nombre, schema)).to.be.true;",
 									"});",
 									"",
-									"pm.environment.set(\"nameMove\", data1)",
-									"pm.environment.set(\"urlPoder\", data2)",
+									"pm.test('Url validado en esquema', function () {",
+									"    pm.expect(tv4.validate(url, schema)).to.be.true;",
+									"});",
+									"",
+									"pm.environment.set(\"nameMove\", nombre)",
+									"pm.environment.set(\"urlPoder\", url)",
 									"",
 									"var nameFavorite = r.forms[0].name;",
 									"pm.environment.set(\"nameFavorite\", nameFavorite)"
@@ -51,7 +53,8 @@
 							"listen": "prerequest",
 							"script": {
 								"exec": [
-									"pm.environment.set(\"idFavorite\", 7)"
+									"pm.environment.set(\"idFavorite\", 7)",
+									""
 								],
 								"type": "text/javascript"
 							}
@@ -122,8 +125,6 @@
 									"    var pokemonEnArr= arrayOfObject.findIndex(obj =>{ return obj.name === ",
 									"    nameFavorite",
 									"        });",
-									"    ",
-									"    console.log(pokemonEnArr);",
 									"",
 									"    pm.expect(arrayOfObject[pokemonEnArr].name).to.eql(nameFavorite);",
 									"",
@@ -131,7 +132,6 @@
 									"",
 									"pm.test(\"Validar que se encuentre el nombre del movimiento en la respuesta\", function () {",
 									"    move = pm.environment.get(\"nameMove\")",
-									"    console.log(move)",
 									"    pm.response.to.have.body();",
 									"});",
 									"",
@@ -183,16 +183,12 @@
 									"    var pokemonEnArr= arrayOfObject.findIndex(obj =>{ return obj.name === ",
 									"    nameFavorite",
 									"        });",
-									"    ",
-									"    console.log(pokemonEnArr);",
 									"",
 									"    pm.expect(arrayOfObject[pokemonEnArr].name).to.eql(nameFavorite);",
 									"",
 									"});",
 									"",
 									"pm.test(\"Validar que se encuentre el nombre del movimiento en la respuesta\", function () {",
-									"    move = pm.environment.get(\"nameMove\")",
-									"    console.log(move)",
 									"    pm.response.to.have.body();",
 									"});"
 								],
