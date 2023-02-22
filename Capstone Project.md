@@ -91,7 +91,7 @@ Se sugiere al estudiante familiarizarse con la aplicación saucedemo de manera q
 - Implementar el patrón de diseño Page Object Model (POM) y su correcta distribución de carpetas y archivos.
 - Utilizar selectores que sean fáciles de leer, mantenibles, y cumpliendo con las mejores prácticas descritas.
 - Los casos de prueba deben de crearse de manera individual, es decir, no se permitirá que un caso de prueba “evalúe” dos funcionalidades distintas a la vez.
-- Una vez creados los casos de prueba suficientes, se deberán agregar las etiquetas correspondiente a los casos de prueba que permitan correr las suites de pruebas de humo, así como la suite de regresión.
+- Una vez creados los casos de prueba suficientes, se deberán agregar las etiquetas correspondiente a los casos de prueba que permitan correr las suites regresión, las suite de pruebas de humo es opcional.
 - Los casos de prueba deberán encontrase divididos por archivos .feature de tal manera que estén agrupados según las funcionalidad que se esté probando
 - Seguir estructura de Gherkin para los archivos tipo feature:
   - Background
