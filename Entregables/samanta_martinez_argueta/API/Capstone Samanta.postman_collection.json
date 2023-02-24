@@ -26,6 +26,10 @@
 									"    pm.environment.set(\"URL\", responseData.moves[0].move.url); \r",
 									"\r",
 									"});\r",
+									"\r",
+									"pm.environment.unset(\"nombre de pokemon\")\r",
+									"pm.environment.unset(\"nombremovimiento\")\r",
+									"\r",
 									""
 								],
 								"type": "text/javascript"
@@ -106,7 +110,9 @@
 									"var jsonData = JSON.parse(responseBody);\r",
 									"\r",
 									"pm.test('Comparación de response y schema', function () {    \r",
-									"    pm.expect(jsonData).to.have.jsonSchema(schema);});"
+									"    pm.expect(jsonData).to.have.jsonSchema(schema);});\r",
+									"\r",
+									"pm.environment.unset(\"URL\")"
 								],
 								"type": "text/javascript"
 							}
@@ -143,17 +149,31 @@
 									"    let nombrepokemon = pm.environment.get(\"name\");\r",
 									"    console.log(nombrepokemon);\r",
 									"    \r",
-									"    pm.expect(jsonData.learned_by_pokemon).to.eql(nombrepokemon);\r",
+									"    pm.expect(jsonData.learned_by_pokemon[0].name).to.eql(nombrepokemon);\r",
 									"    \r",
-									"});"
+									"});\r",
+									"\r",
+									""
 								],
 								"type": "text/javascript"
 							}
 						}
 					],
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
 					"request": {
 						"method": "GET",
 						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
 						"url": {
 							"raw": "https://pokeapi.co/api/v2/move/5",
 							"protocol": "https",
@@ -207,10 +227,51 @@
 			"item": [
 				{
 					"name": "Pokemon no existente",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Se valida código de respuesta\", function () {\r",
+									"    pm.response.to.have.status(404);\r",
+									"});\r",
+									"\r",
+									"pm.test(\"Se valida mensaje\", function () {\r",
+									"    pm.expect(pm.response.text()).to.include(\"Not Found\");\r",
+									"});\r",
+									"\r",
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": null
+						"url": {
+							"raw": "https://pokeapi.co/api/v2/pokemon/{{pokemonNoExistente}}",
+							"protocol": "https",
+							"host": [
+								"pokeapi",
+								"co"
+							],
+							"path": [
+								"api",
+								"v2",
+								"pokemon",
+								"{{pokemonNoExistente}}"
+							]
+						}
 					},
 					"response": []
 				}
