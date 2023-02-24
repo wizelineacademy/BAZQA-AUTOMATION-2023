@@ -9,13 +9,13 @@
 			"name": "Escenarios Negativos",
 			"item": [
 				{
-					"name": "Pokemon Inexistente",
+					"name": "Obtener Pokemon Inexistente",
 					"event": [
 						{
 							"listen": "prerequest",
 							"script": {
 								"exec": [
-									"pm.environment.set(\"mipokemon\",\"dragon\");"
+									""
 								],
 								"type": "text/javascript"
 							}
@@ -34,17 +34,43 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{baseURL}}/pokemon/{{mipokemon}}",
+							"raw": "{{baseURL}}/pokemon/{{fakepokemon}}",
 							"host": [
 								"{{baseURL}}"
 							],
 							"path": [
 								"pokemon",
-								"{{mipokemon}}"
+								"{{fakepokemon}}"
 							]
 						}
 					},
 					"response": []
+				}
+			],
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"pm.test(\"Validando que no se encuentre el pokemon\", function () {",
+							"    pm.response.to.have.status(\"Not Found\");",
+							"});",
+							"",
+							"pm.test(\"Evaluando tiempo de respuesta menor a 700 ms\", function () {",
+							"    pm.expect(pm.response.responseTime).to.be.below(200);",
+							"});"
+						]
+					}
 				}
 			]
 		}
@@ -64,16 +90,7 @@
 			"script": {
 				"type": "text/javascript",
 				"exec": [
-					"pm.test(\"Validando que no se encuentre el pokemon\", function () {",
-					"    pm.response.to.have.status(\"Not Found\");",
-					"});",
-					"",
-					"pm.test(\"Evaluando tiempo de respuesta menor a 200 ms\", function () {",
-					"    pm.expect(pm.response.responseTime).to.be.below(200);",
-					"});",
-					"",
-					"",
-					" "
+					""
 				]
 			}
 		}

@@ -9,7 +9,7 @@
 			"name": "Escenarios Positivos",
 			"item": [
 				{
-					"name": "Nombre",
+					"name": "Obtener Pokemon favorito",
 					"event": [
 						{
 							"listen": "test",
@@ -50,7 +50,7 @@
 							"listen": "prerequest",
 							"script": {
 								"exec": [
-									"pm.environment.set(\"mipokemon\",\"chikorita\");"
+									"pm.environment.set(\"mipokemonfavorito\", \"chikorita\")"
 								],
 								"type": "text/javascript"
 							}
@@ -60,20 +60,20 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{baseURL}}/pokemon/{{mipokemon}}",
+							"raw": "{{baseURL}}/pokemon/{{mipokemonfavorito}}",
 							"host": [
 								"{{baseURL}}"
 							],
 							"path": [
 								"pokemon",
-								"{{mipokemon}}"
+								"{{mipokemonfavorito}}"
 							]
 						}
 					},
 					"response": []
 				},
 				{
-					"name": "Movimientos",
+					"name": "Obtener Movimientos Pokemon",
 					"event": [
 						{
 							"listen": "test",
@@ -96,18 +96,17 @@
 									"    pm.expect(learndBy.name).to.include(\"chikorita\")\r",
 									"});\r",
 									"\r",
-									"pm.environment.unset(\"variable_key\");\r",
-									"pm.globals.unset(\"variable_key\");\r",
-									"\r",
-									"\r",
-									"/*pm.test(\"obtener el nombre del movimiento\", function(){\r",
-									"var jsonData = pm.response.json();\r",
-									"var nombre = jsonData['name'];\r",
-									"console.log(nombre)\r",
-									"});*/\r",
-									"\r",
-									"\r",
-									"\r",
+									"//Eliminando las variables de ambiente\r",
+									"pm.environment.unset(\"mipokemonfavorito\");\r",
+									"pm.environment.unset(\"url_mov_pokemon\")"
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
 									""
 								],
 								"type": "text/javascript"
@@ -142,12 +141,16 @@
 					"script": {
 						"type": "text/javascript",
 						"exec": [
-							"pm.test(\"Respuesta OK\", function () {",
+							"pm.test(\"Validando la respuesta OK\", function () {",
 							"    pm.response.to.have.status(200);",
 							"});",
 							"",
-							"pm.test(\"Evaluando tiempo de respuesta menor a 700 ms\", function () {",
+							"pm.test(\"Validando el tiempo de respuesta menor a 700ms\", function () {",
 							"    pm.expect(pm.response.responseTime).to.be.below(700);",
+							"});",
+							"",
+							"pm.test(\"Validando el nombre del pokemon\", function () {",
+							"    pm.expect(pm.response.text()).to.include(\"chikorita\");",
 							"});"
 						]
 					}
@@ -170,17 +173,6 @@
 			"script": {
 				"type": "text/javascript",
 				"exec": [
-					"pm.test(\"Validando la respuesta OK\", function () {",
-					"    pm.response.to.have.status(200);",
-					"});",
-					"",
-					"pm.test(\"Validando el tiempo de respuesta menor a 700ms\", function () {",
-					"    pm.expect(pm.response.responseTime).to.be.below(700);",
-					"});",
-					"",
-					"pm.test(\"Validando el nombre del pokemon\", function () {",
-					"    pm.expect(pm.response.text()).to.include(\"chikorita\");",
-					"});",
 					""
 				]
 			}
