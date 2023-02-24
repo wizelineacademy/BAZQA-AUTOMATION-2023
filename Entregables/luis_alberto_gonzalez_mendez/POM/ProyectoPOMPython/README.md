@@ -59,8 +59,8 @@ ProyectoPOMPython/
 ## Ejecución ✔️
 **Nota**: Es necesario crear un archivo de entorno .env dentro de la carpeta raíz, ya que será útil iniciar sesión en la aplicación con sus propias credenciales durante la ejecución de la prueba y evitar errores durante la ejecución. El archivo de entorno debe contener las siguientes variables y valores según sus credenciales:
 ```
-USERNAME=<valores según sus credenciales>
-PASSWORD=<valores según sus credenciales>
+USERNAME= <valores según sus credenciales>
+PASSWORD= <valores según sus credenciales>
 ```
 Los siguientes comandos lo ayudarán a ejecutar casos de prueba según lo que necesite probar:
 ```
