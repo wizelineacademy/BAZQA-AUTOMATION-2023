@@ -1,0 +1,719 @@
+{
+	"info": {
+		"_postman_id": "3fc0025b-2109-49b4-ae92-5b90b2ee4d81",
+		"name": "Pokemon",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "19297342"
+	},
+	"item": [
+		{
+			"name": "Escenarios Positivos",
+			"item": [
+				{
+					"name": "Obtener todos los Pokémon",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"var schema = pm.variables.get(\"schema\");\r",
+									"var jsonData = JSON.parse(responseBody);\r",
+									"\r",
+									"postman.setEnvironmentVariable(\"nombre_pokemon\", jsonData.results[0].name)\r",
+									"\r",
+									"const response = pm.response.json();\r",
+									"pm.test('CP003: Validar que el cuerpo de la respuesta es valido vs el esquema definido.', () => {\r",
+									"    pm.expect(response).to.have.jsonSchema(schema);\r",
+									"});\r",
+									"\r",
+									"postman.setNextRequest(\"Seleccionar un Pokémon Favorito\")"
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									"var schema = {\r",
+									"  \"type\": \"object\",\r",
+									"  \"properties\": {\r",
+									"    \"count\": {\r",
+									"      \"type\": \"integer\"\r",
+									"    },\r",
+									"    \"next\": {\r",
+									"      \"type\": \"string\"\r",
+									"    },\r",
+									"    \"previous\": {\r",
+									"      \"type\": \"null\"\r",
+									"    },\r",
+									"    \"results\": {\r",
+									"      \"type\": \"array\",\r",
+									"      \"items\": [\r",
+									"        {\r",
+									"          \"type\": \"object\",\r",
+									"          \"properties\": {\r",
+									"            \"name\": {\r",
+									"              \"type\": \"string\"\r",
+									"            },\r",
+									"            \"url\": {\r",
+									"              \"type\": \"string\"\r",
+									"            }\r",
+									"          },\r",
+									"          \"required\": [\r",
+									"            \"name\",\r",
+									"            \"url\"\r",
+									"          ]\r",
+									"        },\r",
+									"        {\r",
+									"          \"type\": \"object\",\r",
+									"          \"properties\": {\r",
+									"            \"name\": {\r",
+									"              \"type\": \"string\"\r",
+									"            },\r",
+									"            \"url\": {\r",
+									"              \"type\": \"string\"\r",
+									"            }\r",
+									"          },\r",
+									"          \"required\": [\r",
+									"            \"name\",\r",
+									"            \"url\"\r",
+									"          ]\r",
+									"        },\r",
+									"        {\r",
+									"          \"type\": \"object\",\r",
+									"          \"properties\": {\r",
+									"            \"name\": {\r",
+									"              \"type\": \"string\"\r",
+									"            },\r",
+									"            \"url\": {\r",
+									"              \"type\": \"string\"\r",
+									"            }\r",
+									"          },\r",
+									"          \"required\": [\r",
+									"            \"name\",\r",
+									"            \"url\"\r",
+									"          ]\r",
+									"        },\r",
+									"        {\r",
+									"          \"type\": \"object\",\r",
+									"          \"properties\": {\r",
+									"            \"name\": {\r",
+									"              \"type\": \"string\"\r",
+									"            },\r",
+									"            \"url\": {\r",
+									"              \"type\": \"string\"\r",
+									"            }\r",
+									"          },\r",
+									"          \"required\": [\r",
+									"            \"name\",\r",
+									"            \"url\"\r",
+									"          ]\r",
+									"        },\r",
+									"        {\r",
+									"          \"type\": \"object\",\r",
+									"          \"properties\": {\r",
+									"            \"name\": {\r",
+									"              \"type\": \"string\"\r",
+									"            },\r",
+									"            \"url\": {\r",
+									"              \"type\": \"string\"\r",
+									"            }\r",
+									"          },\r",
+									"          \"required\": [\r",
+									"            \"name\",\r",
+									"            \"url\"\r",
+									"          ]\r",
+									"        },\r",
+									"        {\r",
+									"          \"type\": \"object\",\r",
+									"          \"properties\": {\r",
+									"            \"name\": {\r",
+									"              \"type\": \"string\"\r",
+									"            },\r",
+									"            \"url\": {\r",
+									"              \"type\": \"string\"\r",
+									"            }\r",
+									"          },\r",
+									"          \"required\": [\r",
+									"            \"name\",\r",
+									"            \"url\"\r",
+									"          ]\r",
+									"        },\r",
+									"        {\r",
+									"          \"type\": \"object\",\r",
+									"          \"properties\": {\r",
+									"            \"name\": {\r",
+									"              \"type\": \"string\"\r",
+									"            },\r",
+									"            \"url\": {\r",
+									"              \"type\": \"string\"\r",
+									"            }\r",
+									"          },\r",
+									"          \"required\": [\r",
+									"            \"name\",\r",
+									"            \"url\"\r",
+									"          ]\r",
+									"        },\r",
+									"        {\r",
+									"          \"type\": \"object\",\r",
+									"          \"properties\": {\r",
+									"            \"name\": {\r",
+									"              \"type\": \"string\"\r",
+									"            },\r",
+									"            \"url\": {\r",
+									"              \"type\": \"string\"\r",
+									"            }\r",
+									"          },\r",
+									"          \"required\": [\r",
+									"            \"name\",\r",
+									"            \"url\"\r",
+									"          ]\r",
+									"        },\r",
+									"        {\r",
+									"          \"type\": \"object\",\r",
+									"          \"properties\": {\r",
+									"            \"name\": {\r",
+									"              \"type\": \"string\"\r",
+									"            },\r",
+									"            \"url\": {\r",
+									"              \"type\": \"string\"\r",
+									"            }\r",
+									"          },\r",
+									"          \"required\": [\r",
+									"            \"name\",\r",
+									"            \"url\"\r",
+									"          ]\r",
+									"        },\r",
+									"        {\r",
+									"          \"type\": \"object\",\r",
+									"          \"properties\": {\r",
+									"            \"name\": {\r",
+									"              \"type\": \"string\"\r",
+									"            },\r",
+									"            \"url\": {\r",
+									"              \"type\": \"string\"\r",
+									"            }\r",
+									"          },\r",
+									"          \"required\": [\r",
+									"            \"name\",\r",
+									"            \"url\"\r",
+									"          ]\r",
+									"        },\r",
+									"        {\r",
+									"          \"type\": \"object\",\r",
+									"          \"properties\": {\r",
+									"            \"name\": {\r",
+									"              \"type\": \"string\"\r",
+									"            },\r",
+									"            \"url\": {\r",
+									"              \"type\": \"string\"\r",
+									"            }\r",
+									"          },\r",
+									"          \"required\": [\r",
+									"            \"name\",\r",
+									"            \"url\"\r",
+									"          ]\r",
+									"        },\r",
+									"        {\r",
+									"          \"type\": \"object\",\r",
+									"          \"properties\": {\r",
+									"            \"name\": {\r",
+									"              \"type\": \"string\"\r",
+									"            },\r",
+									"            \"url\": {\r",
+									"              \"type\": \"string\"\r",
+									"            }\r",
+									"          },\r",
+									"          \"required\": [\r",
+									"            \"name\",\r",
+									"            \"url\"\r",
+									"          ]\r",
+									"        },\r",
+									"        {\r",
+									"          \"type\": \"object\",\r",
+									"          \"properties\": {\r",
+									"            \"name\": {\r",
+									"              \"type\": \"string\"\r",
+									"            },\r",
+									"            \"url\": {\r",
+									"              \"type\": \"string\"\r",
+									"            }\r",
+									"          },\r",
+									"          \"required\": [\r",
+									"            \"name\",\r",
+									"            \"url\"\r",
+									"          ]\r",
+									"        },\r",
+									"        {\r",
+									"          \"type\": \"object\",\r",
+									"          \"properties\": {\r",
+									"            \"name\": {\r",
+									"              \"type\": \"string\"\r",
+									"            },\r",
+									"            \"url\": {\r",
+									"              \"type\": \"string\"\r",
+									"            }\r",
+									"          },\r",
+									"          \"required\": [\r",
+									"            \"name\",\r",
+									"            \"url\"\r",
+									"          ]\r",
+									"        },\r",
+									"        {\r",
+									"          \"type\": \"object\",\r",
+									"          \"properties\": {\r",
+									"            \"name\": {\r",
+									"              \"type\": \"string\"\r",
+									"            },\r",
+									"            \"url\": {\r",
+									"              \"type\": \"string\"\r",
+									"            }\r",
+									"          },\r",
+									"          \"required\": [\r",
+									"            \"name\",\r",
+									"            \"url\"\r",
+									"          ]\r",
+									"        },\r",
+									"        {\r",
+									"          \"type\": \"object\",\r",
+									"          \"properties\": {\r",
+									"            \"name\": {\r",
+									"              \"type\": \"string\"\r",
+									"            },\r",
+									"            \"url\": {\r",
+									"              \"type\": \"string\"\r",
+									"            }\r",
+									"          },\r",
+									"          \"required\": [\r",
+									"            \"name\",\r",
+									"            \"url\"\r",
+									"          ]\r",
+									"        },\r",
+									"        {\r",
+									"          \"type\": \"object\",\r",
+									"          \"properties\": {\r",
+									"            \"name\": {\r",
+									"              \"type\": \"string\"\r",
+									"            },\r",
+									"            \"url\": {\r",
+									"              \"type\": \"string\"\r",
+									"            }\r",
+									"          },\r",
+									"          \"required\": [\r",
+									"            \"name\",\r",
+									"            \"url\"\r",
+									"          ]\r",
+									"        },\r",
+									"        {\r",
+									"          \"type\": \"object\",\r",
+									"          \"properties\": {\r",
+									"            \"name\": {\r",
+									"              \"type\": \"string\"\r",
+									"            },\r",
+									"            \"url\": {\r",
+									"              \"type\": \"string\"\r",
+									"            }\r",
+									"          },\r",
+									"          \"required\": [\r",
+									"            \"name\",\r",
+									"            \"url\"\r",
+									"          ]\r",
+									"        },\r",
+									"        {\r",
+									"          \"type\": \"object\",\r",
+									"          \"properties\": {\r",
+									"            \"name\": {\r",
+									"              \"type\": \"string\"\r",
+									"            },\r",
+									"            \"url\": {\r",
+									"              \"type\": \"string\"\r",
+									"            }\r",
+									"          },\r",
+									"          \"required\": [\r",
+									"            \"name\",\r",
+									"            \"url\"\r",
+									"          ]\r",
+									"        },\r",
+									"        {\r",
+									"          \"type\": \"object\",\r",
+									"          \"properties\": {\r",
+									"            \"name\": {\r",
+									"              \"type\": \"string\"\r",
+									"            },\r",
+									"            \"url\": {\r",
+									"              \"type\": \"string\"\r",
+									"            }\r",
+									"          },\r",
+									"          \"required\": [\r",
+									"            \"name\",\r",
+									"            \"url\"\r",
+									"          ]\r",
+									"        }\r",
+									"      ]\r",
+									"    }\r",
+									"  },\r",
+									"  \"required\": [\r",
+									"    \"count\",\r",
+									"    \"next\",\r",
+									"    \"previous\",\r",
+									"    \"results\"\r",
+									"  ]\r",
+									"}\r",
+									"\r",
+									"pm.variables.set(\"schema\", schema);"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/pokemon",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"pokemon"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Seleccionar un Pokémon Favorito",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"var schema = pm.variables.get(\"schema\");\r",
+									"var jsonData = JSON.parse(responseBody);\r",
+									"\r",
+									"postman.setEnvironmentVariable(\"move_name\", jsonData.moves[0].move.name)\r",
+									"postman.setEnvironmentVariable(\"move_url\", jsonData.moves[0].move.url)\r",
+									"\r",
+									"pm.test('CP003: Validar que el cuerpo de la respuesta es valido vs el esquema definido.', () => {\r",
+									"    pm.expect(jsonData).to.have.jsonSchema(schema);\r",
+									"});\r",
+									"\r",
+									"postman.setNextRequest(\"Validar Pokémon favorito en learned_by_pokemon\")\r",
+									""
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									"var schema = {\r",
+									"  \"type\": \"object\",\r",
+									"  \"properties\": {\r",
+									"    \"name\": {\r",
+									"      \"type\": \"string\"\r",
+									"    },\r",
+									"    \"url\": {\r",
+									"      \"type\": \"string\"\r",
+									"    }\r",
+									"  }\r",
+									"}\r",
+									"\r",
+									"pm.variables.set(\"schema\", schema);"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/pokemon/{{nombre_pokemon}}",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"pokemon",
+								"{{nombre_pokemon}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Validar Pokémon favorito en learned_by_pokemon",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"const jsonResponse = pm.response.json()\r",
+									"\r",
+									"function _contienePokemon(nombre_pokemon){\r",
+									"    let bandera = false\r",
+									"    _.each(jsonResponse.learned_by_pokemon, (item) => {\r",
+									"        if(item.name === nombre_pokemon){\r",
+									"            bandera = true\r",
+									"        }\r",
+									"    })\r",
+									"    return bandera\r",
+									"}\r",
+									"\r",
+									"pm.test(\"CP003: Validar que el pokemon seleccionado este dentro del apartado 'learned_by_pokemon'.\", function() {\r",
+									"    pm.expect(_contienePokemon(environment.nombre_pokemon)).to.be.true\r",
+									"})\r",
+									"\r",
+									"pm.environment.unset(\"nombre_pokemon\");\r",
+									"pm.environment.unset(\"move_name\");\r",
+									"\r",
+									"postman.setNextRequest(\"Validación por medio de URL\")"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/move/{{move_name}}",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"move",
+								"{{move_name}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Validación por medio de URL",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"var schema = pm.variables.get(\"schema\");\r",
+									"const response = pm.response.json();\r",
+									"\r",
+									"pm.test('CP003: Validar que el cuerpo de la respuesta es valido vs el esquema definido.', () => {\r",
+									"    pm.expect(response).to.have.jsonSchema(schema);\r",
+									"});\r",
+									"\r",
+									"pm.environment.unset(\"move_url\");"
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									"var schema = {\r",
+									"  \"type\": \"object\",\r",
+									"  \"properties\": {\r",
+									"    \"name\": {\r",
+									"      \"type\": \"string\"\r",
+									"    },\r",
+									"    \"url\": {\r",
+									"      \"type\": \"string\"\r",
+									"    }\r",
+									"  }\r",
+									"}\r",
+									"\r",
+									"pm.variables.set(\"schema\", schema);"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{move_url}}",
+							"host": [
+								"{{move_url}}"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"pm.test(\"CP001: Validar que el HTTP status code es igual a 200.\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"pm.test(\"CP002: Validar que el tiempo de respuesta sea menor de 700ms.\", function () {",
+							"    pm.expect(pm.response.responseTime).to.be.below(700);",
+							"});",
+							""
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Escenarios Negativos",
+			"item": [
+				{
+					"name": "Error al enviar end-point invalido",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"postman.setNextRequest(\"Seleccionar un Pokémon Favorito\")"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/pokemn/",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"pokemn",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Error al intentar obtener información de pokémon inexistente",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.environment.set(\"url_negativo\", \"\");\r",
+									"\r",
+									"pm.environment.set(\"url_invalida\", \"https://pokeapi.co/wapi/v2/move/13/\");\r",
+									"\r",
+									"postman.setNextRequest(\"Validación por medio de URL\")\r",
+									"\r",
+									"pm.environment.unset(\"url_negativo\");"
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									"pm.environment.set(\"url_negativo\",\"sinpokemon\");"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/pokemon/{{url_negativo}}",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"pokemon",
+								"{{url_negativo}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Error al obtener todos los pokemon con URL inválida",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.environment.unset(\"url_invalida\");"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url_invalida}}",
+							"host": [
+								"{{url_invalida}}"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"pm.test(\"CP001: Validar que el HTTP status code es igual 404 Not Found.\", function () {",
+							"    pm.response.to.have.status(404);",
+							"});",
+							"",
+							"pm.test(\"CP002: Validar que el tiempo de respuesta sea menor de 700ms.\", function () {",
+							"    pm.expect(pm.response.responseTime).to.be.below(700);",
+							"});",
+							"",
+							"pm.test(\"CP003: Validar que el cuerpo de la respuesta contenga la palabra 'Not Found'.\", function (){",
+							"    pm.expect(pm.response.text()).to.contains(\"Not Found\")",
+							"});"
+						]
+					}
+				}
+			]
+		}
+	]
+}

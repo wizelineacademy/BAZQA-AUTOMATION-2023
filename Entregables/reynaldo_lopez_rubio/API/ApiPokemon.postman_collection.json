@@ -1,0 +1,231 @@
+{
+	"info": {
+		"_postman_id": "5f3f5ff6-615c-4ad7-af2f-be849eeba9c9",
+		"name": "ApiPokemon",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Escenarios Positivos",
+			"item": [
+				{
+					"name": "Consulta_Informacion_Pokemon",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"\r",
+									"var schema = {\r",
+									"\"type\": \"object\",\r",
+									"  \"properties\": {\r",
+									"    \"moves\": {\r",
+									"      \"type\": \"array\",\r",
+									"      \"properties\": {\r",
+									"       \"name\": { \"type\": \"number\" },\r",
+									"       \"url\": { \"type\": \"string\" },\r",
+									"      },\r",
+									"    }\r",
+									"  },\r",
+									"}\r",
+									"\r",
+									"\r",
+									"pm.test(\"validar el json schema\", function () {\r",
+									"   pm.response.to.have.jsonSchema(schema)\r",
+									"});\r",
+									" \r",
+									"\r",
+									"//Punto 1.-Elija su pokemon favorito (almacenar esta información en un archivo de variables de ambiente) y buscar la información sobre sus movimientos.\r",
+									"const jsonData = pm.response.json();\r",
+									"\r",
+									"pm.test(\"Validar Guardar informacion de Pokemon\", function () {\r",
+									"});\r",
+									"\r",
+									"pm.environment.set(\"respuesta\",jsonData);\r",
+									"console.log(\"Imprimiendo información General del Pokemon\",pm.environment.get(\"respuesta\"))\r",
+									"//Termina punto 1\r",
+									"\r",
+									"\r",
+									"//Punto 2. Elija el primer movimiento de la lista, almacene esa información en el archivo de variables de ambiente (nombre, y url).\r",
+									"\r",
+									"pm.environment.set(\"Movimientos\",jsonData.moves[0]);\r",
+									"console.log(\"Imprimiendo informacion de todos los movimiento\",pm.environment.get(\"Movimientos\"))\r",
+									"\r",
+									"pm.environment.set(\"UnMovimiento\",jsonData.moves[0].move.name);\r",
+									"console.log(\"Imprimiendo solo el Primer Movimiento\",pm.environment.get(\"UnMovimiento\"))\r",
+									"\r",
+									"pm.environment.set(\"URLMov\",jsonData.moves[0].move.url);\r",
+									"console.log(\"Imprimiendo la URL del Primer Movimiento\",pm.environment.get(\"URLMov\"))"
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									"\r",
+									"pm.environment.set(\"Pokemon\",\"bulbasaur\");\r",
+									"console.log(\"Iprimimiendo Nombre del Pokemon:\",pm.environment.get(\"Pokemon\"))\r",
+									"\r",
+									"\r",
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "",
+								"value": "",
+								"type": "default",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "{{URL_Nom}}{{Pokemon}}",
+							"host": [
+								"{{URL_Nom}}{{Pokemon}}"
+							]
+						},
+						"description": "NombrePokemon"
+					},
+					"response": []
+				},
+				{
+					"name": "Consulta_Primer_Movimiento_Nom",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									" var jsonData = pm.response.json();\r",
+									"\r",
+									"pm.test(\"Validar nombre de Movimiento\", function(){\r",
+									" pm.expect(jsonData.name).to.eql(pm.environment.get(\"UnMovimiento\"))\r",
+									"});\r",
+									"pm.test(\"Validar nombre del Pokemon\", function(){\r",
+									"pm.expect(jsonData.learned_by_pokemon[0].name).to.include(pm.environment.get(\"Pokemon\"))\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{URLMov}}",
+							"host": [
+								"{{URLMov}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Consulta_Primer_Movimiento_URL",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									" var jsonData = pm.response.json();\r",
+									"\r",
+									"pm.test(\"Validar nombre de Movimiento\", function(){\r",
+									" pm.expect(jsonData.name).to.eql(pm.environment.get(\"UnMovimiento\"))\r",
+									"});\r",
+									"\r",
+									"pm.environment.set(\"URLPokemon\",jsonData.learned_by_pokemon[0].url)\r",
+									"console.log(\"Imprimiento URL del Pokemon\",pm.environment.get(\"URLPokemon\"))\r",
+									"\r",
+									"pm.test(\"Validar URL Pokemon\",function(){\r",
+									"pm.expect(jsonData.learned_by_pokemon[0].url).to.eql(pm.environment.get(\"URLPokemon\"))\r",
+									"})\r",
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{URLMov}}",
+							"host": [
+								"{{URLMov}}"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"pm.test(\"Validar Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"pm.test(\"Validar el tiempo de respuesta bajo de 700ms\", function () {",
+							"    pm.expect(pm.response.responseTime).to.be.below(700);",
+							"});",
+							""
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Escenarios Negativos",
+			"item": [
+				{
+					"name": "Consulta_Informacion_Pokemon",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Valudar Status del 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{URL_Nom}}/pik",
+							"host": [
+								"{{URL_Nom}}"
+							],
+							"path": [
+								"pik"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
