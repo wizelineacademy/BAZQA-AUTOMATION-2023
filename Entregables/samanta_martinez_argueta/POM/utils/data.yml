@@ -1,0 +1,8 @@
+---
+- digit_one: "one"
+  digit_two: "two"
+  expected_digits: "12"
+- digit_one: "three"
+  digit_two: "four"
+  expected_digits: "34"
+...
