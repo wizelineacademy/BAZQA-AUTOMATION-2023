@@ -91,7 +91,7 @@ Se sugiere al estudiante familiarizarse con la aplicación saucedemo de manera q
 - Implementar el patrón de diseño Page Object Model (POM) y su correcta distribución de carpetas y archivos.
 - Utilizar selectores que sean fáciles de leer, mantenibles, y cumpliendo con las mejores prácticas descritas.
 - Los casos de prueba deben de crearse de manera individual, es decir, no se permitirá que un caso de prueba “evalúe” dos funcionalidades distintas a la vez.
-- Una vez creados los casos de prueba suficientes, se deberán agregar las etiquetas correspondiente a los casos de prueba que permitan correr las suites de pruebas de humo, así como la suite de regresión.
+- Una vez creados los casos de prueba suficientes, se deberán agregar las etiquetas correspondiente a los casos de prueba que permitan correr las suites regresión, las suite de pruebas de humo es opcional.
 - Los casos de prueba deberán encontrase divididos por archivos .feature de tal manera que estén agrupados según las funcionalidad que se esté probando
 - Seguir estructura de Gherkin para los archivos tipo feature:
   - Background
@@ -107,22 +107,19 @@ Se sugiere al estudiante familiarizarse con la aplicación saucedemo de manera q
 
 **Los casos de prueba a implementar son los siguientes:**
 
-- Detalle del artículo (Utilizar Scenario Outline para validar con 3 artículos). Una vez que ha iniciado sesión en el sistema, hacer tap sobre cualquiera de los artículos disponibles y proceder a validar la información relevante de dicho artículo (Nombre, descripción, precio).
-- Agregar artículo al carrito de compras y validar que la información que se muestra sobre dicho artículo es correcta.  Considere evaluar atributos como nombre, precio, descripción, cantidad, etc, según usted considere conveniente.
-- Finalizar compra. Una vez que ha agregado múltiples artículos a su carrito de compras, proceder a concluir el proceso de pago y envío. Validar que puede realizar una compra sin ningún problema.
+- Detalle del artículo. Una vez que ha iniciado sesión en el sistema, hacer tap sobre cualquiera de los artículos disponibles y proceder a validar la información relevante de dicho artículo (Nombre y precio).
+- Agregar artículo al carrito de compras y validar que la información que se muestra sobre dicho artículo es correcta.  Considere evaluar atributos como nombre y precio. Otro atributos como descripción, cantidad, etc, son opcionales.
 
 **Opcional**
 
-Realizar tap sobre el filtro que se encuentra en la esquina superior derecha de la página de productos, elegir la opción ordenar por precio de “menor a mayor” y validar que los artículos de la página en cuestión están correctamente ordenados.
+-Realizar tap sobre el filtro que se encuentra en la esquina superior derecha de la página de productos, elegir la opción ordenar por precio de “menor a mayor” y validar que los artículos de la página en cuestión están correctamente ordenados.
+- Finalizar compra. Una vez que ha agregado múltiples artículos a su carrito de compras, proceder a concluir el proceso de pago y envío. Validar que puede realizar una compra sin ningún problema.
 
 # Enviando los entregables
 Para publicar tu trabajo, deberás seguir estos pasos:
 
 - Crear un pull request, apuntando a la rama master. La rama del pull request deberá tener la siguiente nomenclatura. <br>
-* Folder: entregables>nombre_completo <br>
-* 1er subfolder: API 
-* 2do subfolder: POM 
-* 3er subfolder: APPIUM <br>
+
 * Folder: entregables>nombre_completo <br>
 * 1er subfolder: API 
 * 2do subfolder: POM 
