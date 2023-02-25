@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="50a902cb-c6bf-45ad-941b-fda4bf4dd0c8" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../API/ProyectoAPI_Negativos.postman_collection.json" beforeDir="false" afterPath="$PROJECT_DIR$/../API/ProyectoAPI_Negativos.postman_collection.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/ProyectoAPI_Positivos.postman_collection.json" beforeDir="false" afterPath="$PROJECT_DIR$/../API/ProyectoAPI_Positivos.postman_collection.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/ProyectoAPI_VariablesAmbiente.postman_environment.json" beforeDir="false" afterPath="$PROJECT_DIR$/../API/ProyectoAPI_VariablesAmbiente.postman_environment.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2M3NsS4zNuMLpML5GT9zydHu2z4" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "E:/Users/72282/Documents/EKTDigital/Curso_Wizeline/CapstoneProject/POM",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  }
+}]]></component>
+  <component name="RunManager" selected="Python tests.pytest for test_login.test_locked_user">
+    <configuration name="pytest for ProyectoPOM.tests.test_login.test_exitoso" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="POM" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ProyectoPOM/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;--alluredir\u003d\u0027../reports\u0027&quot;" />
+      <option name="_new_target" value="&quot;ProyectoPOM.tests.test_login.test_exitoso&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for ProyectoPOM.tests.test_login.test_primer_error" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="POM" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ProyectoPOM/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;ProyectoPOM.tests.test_login.test_primer_error&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_login.test_locked_user" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="POM" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ProyectoPOM/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_login.test_locked_user&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_login.test_pass_error" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="POM" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ProyectoPOM/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_login.test_pass_error&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_login.test_primer_error" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="POM" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ProyectoPOM/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_login.test_primer_error&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python tests.pytest for ProyectoPOM.tests.test_login.test_exitoso" />
+      <item itemvalue="Python tests.pytest for ProyectoPOM.tests.test_login.test_primer_error" />
+      <item itemvalue="Python tests.pytest for test_login.test_locked_user" />
+      <item itemvalue="Python tests.pytest for test_login.test_pass_error" />
+      <item itemvalue="Python tests.pytest for test_login.test_primer_error" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.pytest for test_login.test_locked_user" />
+        <item itemvalue="Python tests.pytest for test_login.test_pass_error" />
+        <item itemvalue="Python tests.pytest for test_login.test_primer_error" />
+        <item itemvalue="Python tests.pytest for ProyectoPOM.tests.test_login.test_primer_error" />
+        <item itemvalue="Python tests.pytest for ProyectoPOM.tests.test_login.test_exitoso" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="50a902cb-c6bf-45ad-941b-fda4bf4dd0c8" name="Changes" comment="" />
+      <created>1676992512744</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1676992512744</updated>
+    </task>
+    <servers />
+  </component>
+</project>
