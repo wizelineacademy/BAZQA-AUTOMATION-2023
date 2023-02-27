@@ -50,7 +50,7 @@ Aquí encontrarás todas las grabaciones y presentaciones una vez finalizada cad
 
 - [Clase 1: Martes 28 Feb - Appium práctico](https://drive.google.com/file/d/12N3JRBaiuWJQ_KfJydu7I_DCxUQi813U/view?usp=sharing)
 - 📺 [Grabacion Martes 28 Feb]()
-- [Clase 2: Martes 28 Feb - Appium práctico]()
+- [Clase 2: Martes 28 Feb - Appium práctico]
 - 📺 [Grabacion Martes 28 Feb]()
 
 
