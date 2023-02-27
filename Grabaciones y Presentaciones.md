@@ -43,14 +43,14 @@ Aquí encontrarás todas las grabaciones y presentaciones una vez finalizada cad
 - 
 
 # Semana 6
-- [Clase 1: Lunes 27 Feb - Revisión de Capstone project]()
+- [Clase 1: Lunes 27 Feb - Pycharm](https://drive.google.com/file/d/17fVmxTM-s7fFq5UV2uxYiPJQwN-7u5v7/view?usp=sharing)
 - 📺 [Grabacion Lunes 27 Feb]()
-- [Clase 2: Lunes 27 Feb - Revisión de Capstone project]()
+- [Clase 2: Lunes 27 Feb - Pycharm]
 - 📺 [Grabacion Lunes 27 Feb]()
 
-- [Clase 1: Martes 28 Feb - Revisión de Capstone project]()
+- [Clase 1: Martes 28 Feb - Appium práctico](https://drive.google.com/file/d/12N3JRBaiuWJQ_KfJydu7I_DCxUQi813U/view?usp=sharing)
 - 📺 [Grabacion Martes 28 Feb]()
-- [Clase 2: Martes 28 Feb - Revisión de Capstone project]()
+- [Clase 2: Martes 28 Feb - Appium práctico]
 - 📺 [Grabacion Martes 28 Feb]()
 
 
