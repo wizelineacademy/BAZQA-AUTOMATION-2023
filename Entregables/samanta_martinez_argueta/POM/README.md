@@ -1,20 +1,27 @@
 
-# Dialer Automation Test
+# Automatización de login de la aplicación móvil "Sauce"
 
-This project contains the automation test suite of the native app Dialer.
-
-
+El proyecto contiene una suite de pruebas automatizada del login de la aplicación Sauce.
 
 
-## Running Tests
 
-To run a test suite, run the following command
 
+
+## Ejecución de pruebas
+
+Antes de ejecutar una suite de pruebas o prueba individual, es necesario ingresar manualmente las credenciales del login ne el archivo ".env".
+
+Si se requiere ejecutar las pruebas de humo, se debe ejecutar en la consola el siguiente comando:
 ```bash
   pytest -v -m smoketests
 ```
 
-Generate an allure report 
+Si se requiere ejecutar las pruenas de regresión, se debe ejecutar en la consola el siguiente comando
+```bash
+  pytest -v -m smoketests
+```
+
+Para generar un reporte allure, se debe ejecutar en consola el siguiente comando: 
 ```bash
   py.test --alluredir=reports ./tests
   
