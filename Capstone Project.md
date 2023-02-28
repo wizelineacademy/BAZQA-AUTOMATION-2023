@@ -107,12 +107,12 @@ Se sugiere al estudiante familiarizarse con la aplicación saucedemo de manera q
 
 **Los casos de prueba a implementar son los siguientes:**
 
-- Detalle del artículo. Una vez que ha iniciado sesión en el sistema, hacer tap sobre cualquiera de los artículos disponibles y proceder a validar la información relevante de dicho artículo (Nombre y precio).
+- Detalle del artículo. Hacer tap sobre cualquiera de los artículos disponibles y proceder a validar la información relevante de dicho artículo (Nombre y precio).
 - Agregar artículo al carrito de compras y validar que la información que se muestra sobre dicho artículo es correcta.  Considere evaluar atributos como nombre y precio. Otro atributos como descripción, cantidad, etc, son opcionales.
 
 **Opcional**
 
--Realizar tap sobre el filtro que se encuentra en la esquina superior derecha de la página de productos, elegir la opción ordenar por precio de “menor a mayor” y validar que los artículos de la página en cuestión están correctamente ordenados (tomar el precio mayor y el precio menor para compararlos).
+- Realizar tap sobre el filtro que se encuentra en la esquina superior derecha de la página de productos, elegir la opción ordenar por precio de “menor a mayor” y validar que los artículos de la página en cuestión están correctamente ordenados (tomar el precio mayor y el precio menor para compararlos).
 - Finalizar compra. Una vez que ha agregado múltiples artículos a su carrito de compras, proceder a concluir el proceso de pago y envío. Validar que puede realizar una compra sin ningún problema.
 
 # Enviando los entregables
