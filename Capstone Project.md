@@ -92,13 +92,11 @@ Para publicar tu trabajo, deberás seguir estos pasos:
 
 * Folder: entregables>nombre_completo <br>
 * 1er subfolder: API 
-* 2do subfolder: POM 
-* 3er subfolder: APPIUM
+* 2do subfolder: APPIUM
 
 &nbsp;&nbsp;├── entregables <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── nombre_completo <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── API <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── POM <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── APPIUM <br>
 
 [Llenar este formato](https://forms.gle/Eq3NFcA1xusAgqfX8)
