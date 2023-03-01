@@ -1,0 +1,85 @@
+{
+	"info": {
+		"_postman_id": "86734017-960b-4f40-9c94-a8278ec0ec12",
+		"name": "Escenarios Negativos",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "8227630"
+	},
+	"item": [
+		{
+			"name": "Elejir movimiento que no existe",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"//validar si primer llamdo sobrepase los 700ms\r",
+							"pm.test(\"tiempo de llamado mayor a 100ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.above(100);\r",
+							"});\r",
+							"\r",
+							"//status error y mensaje\r",
+							"pm.test(\"status code 404\", function () {\r",
+							"    pm.response.to.have.status(\"Not Found\");\r",
+							"});\r",
+							"\r",
+							"//consultar si un pokemon no se encuentra dentro del listado\r",
+							"//un movimient que ni existe\r",
+							"//un pokemon que no incluya movimiento\r",
+							"\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url_base}}{{listaMovimientos}}patada",
+					"host": [
+						"{{url_base}}{{listaMovimientos}}patada"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Elejir pokemon que no existe",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"//validar si primer llamdo sobrepase los 700ms\r",
+							"pm.test(\"tiempo de llamado mayor a 100ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.above(100);\r",
+							"});\r",
+							"\r",
+							"//status error y mensaje\r",
+							"pm.test(\"status code 404\", function () {\r",
+							"    pm.response.to.have.status(\"Not Found\");\r",
+							"});\r",
+							"\r",
+							"\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url_base}}{{listaPokemones}}perro",
+					"host": [
+						"{{url_base}}{{listaPokemones}}perro"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
