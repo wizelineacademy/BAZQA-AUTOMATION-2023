@@ -48,9 +48,7 @@ Aquí encontrarás todas las grabaciones y presentaciones una vez finalizada cad
 - [Clase 2: Lunes 27 Feb - Pycharm]
 - 📺 [Grabacion Lunes 27 Feb](https://drive.google.com/file/d/1HKw-_ftXjnvlGKokOK7-IYsU5im2HFHH/view?usp=sharing)
 
-- [Clase 1: Martes 28 Feb - Appium práctico](https://drive.google.com/file/d/12N3JRBaiuWJQ_KfJydu7I_DCxUQi813U/view?usp=sharing)
-- 📺 [Grabacion Martes 28 Feb]()
-- [Clase 2: Martes 28 Feb - Appium práctico]
-- 📺 [Grabacion Martes 28 Feb]()
+- [Taller práctico: Martes 28 Feb - Appium práctico](https://drive.google.com/file/d/12N3JRBaiuWJQ_KfJydu7I_DCxUQi813U/view?usp=sharing)
+
 
 
