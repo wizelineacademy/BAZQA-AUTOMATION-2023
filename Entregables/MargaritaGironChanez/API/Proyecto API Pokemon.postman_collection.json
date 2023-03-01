@@ -1,0 +1,195 @@
+{
+	"info": {
+		"_postman_id": "53d877c8-3de6-43e3-a361-2e03769f68bb",
+		"name": "Proyecto API Pokemon",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Escenarios Positivos",
+			"item": [
+				{
+					"name": "Obtener Pokemon favorito",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Validar schema\", function (){\r",
+									"    const schema = {\r",
+									"    \"properties\": {\r",
+									"        \"move\": {\r",
+									"            \"properties\":{\r",
+									"                \"name\": { \"type\": \"string\"},\r",
+									"                \"url\": { \"type\": \"string\"}\r",
+									"            }      \r",
+									"        }  \r",
+									"    }\r",
+									"}\r",
+									"    pm.response.to.have.jsonSchema(schema) \r",
+									"});\r",
+									"\r",
+									"\r",
+									"pm.test(\"Obtener el primer movimiento\", function(){\r",
+									"    var jsonData = pm.response.json();\r",
+									"    var movimientos = jsonData['moves'];\r",
+									"    var primerMovimiento = jsonData['moves'][0];\r",
+									"    //console.log(primerMovimiento)\r",
+									"    var nombrePrimerMovimiento = primerMovimiento['move']['name']\r",
+									"    pm.collectionVariables.set(\"primer_movimiento\", nombrePrimerMovimiento);\r",
+									"    console.log(nombrePrimerMovimiento)\r",
+									"    var urlMovPokemon = primerMovimiento['move']['url']\r",
+									"    pm.collectionVariables.set(\"url_mov_pokemon\", urlMovPokemon);\r",
+									"    console.log(urlMovPokemon)\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									"pm.environment.set(\"mipokemonfavorito\", \"chikorita\")"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseURL}}/pokemon/{{mipokemonfavorito}}",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"pokemon",
+								"{{mipokemonfavorito}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Obtener Movimientos Pokemon",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Buscando el nombre del pokemon\", function () {\r",
+									"    pm.expect(pm.response.text()).to.include(\"chikorita\");\r",
+									"});\r",
+									"\r",
+									"var respMovs = pm.response.json();\r",
+									"\r",
+									"pm.test(\"Buscando el nombre del movimiento\", function () {    \r",
+									"    pm.expect(respMovs.name).to.include(\"swords-dance\")\r",
+									"});\r",
+									"\r",
+									"pm.test(\"Buscando el nombre del pokemon dentro de los movimientos\", function () {\r",
+									"    var learndBy = respMovs['learned_by_pokemon'][42];\r",
+									"    //console.log(learndBy)\r",
+									"    //var nombrepkemon \r",
+									"    pm.expect(learndBy.name).to.include(\"chikorita\")\r",
+									"});\r",
+									"\r",
+									"//Eliminando las variables de ambiente\r",
+									"pm.environment.unset(\"mipokemonfavorito\");\r",
+									"pm.environment.unset(\"url_mov_pokemon\")"
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url_mov_pokemon}}",
+							"host": [
+								"{{url_mov_pokemon}}"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"pm.test(\"Validando la respuesta OK\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"pm.test(\"Validando el tiempo de respuesta menor a 700ms\", function () {",
+							"    pm.expect(pm.response.responseTime).to.be.below(700);",
+							"});",
+							"",
+							"pm.test(\"Validando el nombre del pokemon\", function () {",
+							"    pm.expect(pm.response.text()).to.include(\"chikorita\");",
+							"});"
+						]
+					}
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "primer_movimiento",
+			"value": ""
+		},
+		{
+			"key": "urlpokemon",
+			"value": ""
+		},
+		{
+			"key": "url_mov_pokemon",
+			"value": ""
+		}
+	]
+}
