@@ -1,4 +1,5 @@
-from appium.webdriver.common.appiumby import AppiumBy as By
+from selenium.webdriver.common.by import By
+
 from screens.BaseScreen import BaseScreen
 
 
