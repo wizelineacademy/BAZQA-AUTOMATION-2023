@@ -1,0 +1,323 @@
+{
+	"info": {
+		"_postman_id": "0e195605-ccf5-47f1-8f8a-4cfa7362aedd",
+		"name": "ApiPokemon",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "8227630"
+	},
+	"item": [
+		{
+			"name": "Escenarios Positivos",
+			"item": [
+				{
+					"name": "Elijo Mi Pokemon",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									"pm.environment.set(\"elijoPokemon\", 17)\r",
+									"\r",
+									""
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"//Guardar en una variable el rultado de la petición\r",
+									"const jsonData = pm.response.json();\r",
+									"console.log(jsonData.moves[0])\r",
+									"\r",
+									"//Variable que almacena el nombre de mi pokenom\r",
+									"pm.environment.set(\"nombrePokem\",jsonData.name)\r",
+									"\r",
+									"//Variable que almacena el nombre del primer movimiento\r",
+									"pm.environment.set(\"nombreMovimiento\",jsonData.moves[0].move.name)\r",
+									"\r",
+									"//Variable que almacena la url del primer movimiento\r",
+									"pm.environment.set(\"urlMovimiento\",jsonData.moves[0].move.url)\r",
+									"\r",
+									"//console.log(jsonData.moves[0].move.name)\r",
+									"//console.log(jsonData.moves[0].move.url)\r",
+									"\r",
+									"\r",
+									"pm.test(\"validar que se nombre del primer ataque \", function () {\r",
+									"    pm.expect(pm.response.text()).to.include(pm.environment.get(\"nombreMovimiento\"));\r",
+									"});\r",
+									"\r",
+									"pm.test(\"validar que se encuentre la url del primer ataque \", function () {\r",
+									"    pm.expect(pm.response.text()).to.include(pm.environment.get(\"urlMovimiento\"));\r",
+									"});\r",
+									"\r",
+									"//Validar que se encuentre mi pokemon\r",
+									"pm.test(\"Mi pokemon se encuentra dentro \", function () {\r",
+									"    pm.expect(pm.response.text()).to.include(pm.environment.get(\"nombrePokem\"));\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url_base}}{{listaPokemones}}{{elijoPokemon}}",
+							"host": [
+								"{{url_base}}{{listaPokemones}}{{elijoPokemon}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Todos los movimiewntio",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"\r",
+									"const schema = {\r",
+									"    \"type\": \"object\",\r",
+									"    \"properties\": {\r",
+									"        \"count\": {\r",
+									"            \"type\": \"integer\"\r",
+									"        },\r",
+									"        \"next\": {\r",
+									"            \"type\": \"string\"\r",
+									"        },\r",
+									"        \"previous\": {\r",
+									"            \"type\": \"null\"\r",
+									"        },\r",
+									"        \"results\": {\r",
+									"            \"type\": \"array\",\r",
+									"            \"items\":[{\r",
+									"                \"type\": \"object\",\r",
+									"                \"properties\": {\r",
+									"                    \"name\": {\r",
+									"                        \"type\": \"string\"\r",
+									"                    },\r",
+									"                    \"url\": {\r",
+									"                        \"type\": \"string\"\r",
+									"                    } \r",
+									"                }\r",
+									"            }]\r",
+									"        }\r",
+									"\r",
+									"    }\r",
+									"\r",
+									"};\r",
+									"\r",
+									"//funcion para validar el json schema\r",
+									"pm.test('Schema is valid', function () {\r",
+									"    pm.response.to.have.jsonSchema(schema);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url_base}}{{listaMovimientos}}",
+							"host": [
+								"{{url_base}}{{listaMovimientos}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Busqueda información movimiento 1",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"//Validar nombre movimiento\r",
+									"pm.test(\"validar nombre del movimiento OK\", function () {\r",
+									"    pm.expect(pm.response.text()).to.include(pm.environment.get(\"nombreMovimiento\"));\r",
+									"});\r",
+									"\r",
+									"//crear una constante que mantiene la respuesta de la petición en json\r",
+									"const jsonData = pm.response.json();\r",
+									"console.log(\"valor\",jsonData.learned_by_pokemon)\r",
+									"\r",
+									"//Validar que se encuentre el nombre del pokemon en learned_by_pokemon\r",
+									"pm.test(\"Mi pokemon si se encuentra dentro de learned_by_pokemon \", function () {\r",
+									"    pm.expect(jsonData.learned_by_pokemon[3].name).to.include(pm.environment.get(\"nombrePokem\"));\r",
+									"});\r",
+									"\r",
+									""
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url_base}}{{listaMovimientos}}{{nombreMovimiento}}",
+							"host": [
+								"{{url_base}}{{listaMovimientos}}{{nombreMovimiento}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Busqueda información movimiento 2",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"//Validar nombre movimiento\r",
+									"pm.test(\"validar nombre del movimiento \", function () {\r",
+									"    pm.expect(pm.response.text()).to.include(pm.environment.get(\"nombreMovimiento\"));\r",
+									"});\r",
+									"\r",
+									"//crear una constante que mantiene la respuesta de la petición en json\r",
+									"const jsonData = pm.response.json();\r",
+									"console.log(\"valor\",jsonData.learned_by_pokemon)\r",
+									"\r",
+									"//Validar que se encuentre el nombre del pokemon en learned_by_pokemon\r",
+									"pm.test(\"Mi pokemon se encuentra dentro de learned_by_pokemon \", function () {\r",
+									"    pm.expect(jsonData.learned_by_pokemon[3].name).to.include(pm.environment.get(\"nombrePokem\"));\r",
+									"});\r",
+									"\r",
+									"\r",
+									"const schema = {\r",
+									"    \"type\": \"object\",\r",
+									"    \"properties\": {\r",
+									"        \"count\": {\r",
+									"            \"type\": \"integer\"\r",
+									"        },\r",
+									"        \"next\": {\r",
+									"            \"type\": \"string\"\r",
+									"        },\r",
+									"        \"previous\": {\r",
+									"            \"type\": \"null\"\r",
+									"        },\r",
+									"        \"results\": {\r",
+									"            \"type\": \"array\",\r",
+									"            \"items\":[{\r",
+									"                \"type\": \"object\",\r",
+									"                \"properties\": {\r",
+									"                    \"name\": {\r",
+									"                        \"type\": \"string\"\r",
+									"                    },\r",
+									"                    \"url\": {\r",
+									"                        \"type\": \"string\"\r",
+									"                    } \r",
+									"                }\r",
+									"            }]\r",
+									"        }\r",
+									"\r",
+									"    }\r",
+									"\r",
+									"};\r",
+									"\r",
+									"//funcion para validar el json schema\r",
+									"pm.test('Schema is valid', function () {\r",
+									"    pm.response.to.have.jsonSchema(schema);\r",
+									"});\r",
+									"\r",
+									"pm.environment.unset(\"elijoPokemon\");\r",
+									"pm.environment.unset(\"id_pokemon\");\r",
+									"pm.environment.unset(\"nombrePokem\");\r",
+									"pm.environment.unset(\"nombreMovimiento\");\r",
+									"pm.environment.unset(\"elijoPokemon\");\r",
+									"pm.environment.unset(\"urlMovimiento\");"
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{urlMovimiento}}",
+							"host": [
+								"{{urlMovimiento}}"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"pm.test(\"Respuesta menos de 700ms\", function () {",
+							"    pm.expect(pm.response.responseTime).to.be.below(700);",
+							"});",
+							"",
+							"pm.test(\"Status OK\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});"
+						]
+					}
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}

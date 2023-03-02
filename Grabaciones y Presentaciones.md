@@ -39,17 +39,16 @@ Aquí encontrarás todas las grabaciones y presentaciones una vez finalizada cad
 - [Clase 1: Lunes 20 Feb - Python](https://drive.google.com/file/d/1i3QJcoD70_hxbHXQpaFWcffHAFNJ_o8Y/view?usp=sharing)
 - [Clase 2: Lunes 20 Feb - Revisión 1er entregable](https://drive.google.com/file/d/1LZRgjx0V1ucIdT6W8R_2NarJO1iOkm3d/view?usp=sharing)
 - [Clase 3: Lunes 20 Feb - Repaso](https://drive.google.com/file/d/1NynP09G6JQNieJs-mqeiGEeen8OZ-3v7/view?usp=sharing)
-- 
+- [Clase: Martes 21 Feb - Repaso](https://drive.google.com/file/d/1fDwwz6WZ11TtiM1IXJ26JeFOmoOyTqK1/view?usp=sharing)
+
 
 # Semana 6
-- [Clase 1: Lunes 27 Feb - Revisión de Capstone project]()
-- 📺 [Grabacion Lunes 27 Feb]()
-- [Clase 2: Lunes 27 Feb - Revisión de Capstone project]()
-- 📺 [Grabacion Lunes 27 Feb]()
+- [Clase 1: Lunes 27 Feb - Pycharm](https://drive.google.com/file/d/17fVmxTM-s7fFq5UV2uxYiPJQwN-7u5v7/view?usp=sharing)
+- 📺 [Grabacion Lunes 27 Feb](https://drive.google.com/file/d/1Lkbpdby1i5N_PftNAt1JUhBcAAJdpmyx/view?usp=sharing)
+- [Clase 2: Lunes 27 Feb - Pycharm]
+- 📺 [Grabacion Lunes 27 Feb](https://drive.google.com/file/d/1HKw-_ftXjnvlGKokOK7-IYsU5im2HFHH/view?usp=sharing)
 
-- [Clase 1: Martes 28 Feb - Revisión de Capstone project]()
-- 📺 [Grabacion Martes 28 Feb]()
-- [Clase 2: Martes 28 Feb - Revisión de Capstone project]()
-- 📺 [Grabacion Martes 28 Feb]()
+- [Taller práctico: Martes 28 Feb - Appium práctico](https://drive.google.com/file/d/12N3JRBaiuWJQ_KfJydu7I_DCxUQi813U/view?usp=sharing)
+
 
 
