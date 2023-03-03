@@ -134,3 +134,39 @@ Se debera de cambiar script path por module name y seleccionar behave, para el w
 La configuración tendra que mostrarse como la siguiente imagen:
 ![](../../smoke.png)
 
+
+##Generar reporte con allure
+Generación de reportes:
+Se debe instalar allure-behave con el siguiente comando:
+```pip3 install allure-behave```
+
+Para ejecutar con el tag smoke:
+```bash
+  behave -f  allure_behave.formatter:AllureFormatter -o reports --tags=@smoke
+
+  allure serve reports
+```
+Para ejecutar con el tag regression:
+```bash
+
+  behave -f  allure_behave.formatter:AllureFormatter -o reports --tags=@regresion
+
+  allure serve reports
+```
+*Nota: al ejecutar al generar el reporte, si se requiere generar uno distinto requiere de eliminar todos los archivos de la carpeta reportes*
+
+## Análisis de código estático 
+Instalar flake8 con el comando `pip3 install flake8`
+Se utiliza la herramienta flake8 para el análisis de código estático:
+```bash
+ flake8 ./carpeta_a_analizar
+```
+En el caso de proyecto se validaron:
+```bash
+ flake8 ./features
+```
+```bash
+ flake8 ./screens
+```
+
+
