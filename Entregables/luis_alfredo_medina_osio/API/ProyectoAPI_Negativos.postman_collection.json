@@ -1,0 +1,54 @@
+{
+	"info": {
+		"_postman_id": "22948a93-4b3c-4df8-88e9-4e5c156f3406",
+		"name": "ProyectoAPI_Negativos",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Negativos Obtener Pokemon",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							"pm.environment.set(\"fakePokemon\", \"dragon\");"
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"//Validar pokemon inexistente\r",
+							"pm.test(\"Validar el código de error 404 por que no existe el pokemon\", function () {\r",
+							"    pm.response.to.have.status(404);\r",
+							"}); \r",
+							"\r",
+							"//Validar tiempo de respuesta \r",
+							"pm.test(\"Validar el tiempo de respuesta menor a 200ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
+							"});\r",
+							"\r",
+							"//Limpiar variables de ambiente\r",
+							"//pm.environment.unset(\"fakePokemon\");"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{URL_Principal}}{{fakePokemon}}",
+					"host": [
+						"{{URL_Principal}}{{fakePokemon}}"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
