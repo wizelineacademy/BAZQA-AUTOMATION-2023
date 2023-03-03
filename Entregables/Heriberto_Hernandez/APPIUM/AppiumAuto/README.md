@@ -119,4 +119,11 @@ La terminal del IDE: Pycharm debe mostrarnos el resultado de la prueba exitosa
 14 steps passed, 0 failed, 0 skipped, 0 undefined
 Took 0m14.218s
 
+## Generacion del Reporte Allure
 
+Para la generacion del reporte allure debemis ejecutar el siguiente
+
+````
+\pythonProject1\AppiumAuto\behave> allure serve reports
+
+''''
