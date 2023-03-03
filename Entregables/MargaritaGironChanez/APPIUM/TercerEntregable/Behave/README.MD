@@ -10,7 +10,7 @@ A continuación enlisto las configuraciones, comandos para ejecutar el proyecto 
 4.Suite de regresión
   @Regression
 
-6.Análisis de código estático con Flake8
+5.Análisis de código estático con Flake8
    flake8 ./features
    flake8 ./screens
    flake8 ./steps
