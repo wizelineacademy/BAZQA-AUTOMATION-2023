@@ -1,13 +1,12 @@
 import pytest
-
-from screens.HomeScreen import HomeScreen
+from screens import HomeScreen
 from screens.LoginScreen import LoginScreen
 from dotenv import load_dotenv
 import os
 
 class TestLogin:
 
-    load_dotenv("./utils/.env")
+    load_dotenv('../utils/.env')
 
 
     @pytest.mark.regression
