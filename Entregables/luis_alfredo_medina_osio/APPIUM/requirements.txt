@@ -1,0 +1,6 @@
+behave==1.2.6
+Appium-Python-Client==2.8.1
+python-dotenv~=0.19.2
+selenium==3.141.0
+allure-behave==2.13.0
+
