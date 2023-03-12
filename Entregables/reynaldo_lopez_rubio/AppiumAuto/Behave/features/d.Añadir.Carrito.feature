@@ -1,5 +1,6 @@
 Feature: Añadir Carrito
 
+         @regresion
          @e2e
   Scenario: Añadir articulo a carrito
            Given Dar Tap en el articulo

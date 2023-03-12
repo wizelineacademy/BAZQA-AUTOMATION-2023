@@ -1,5 +1,5 @@
 Feature: DetallePedido
-
+       @regresion
        @e2e
   Scenario: Tap en el articulo
       Given Dar Tap en el articulo

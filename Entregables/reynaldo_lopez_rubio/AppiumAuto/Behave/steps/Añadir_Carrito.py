@@ -1,5 +1,5 @@
 from behave import Then
-from behave import
+from behave import When
 from screens.Descripcion_Producto import DescripcionProducto
 from Utils.dictionaries.home_screen_text import HOME_TEXTS
 
@@ -19,5 +19,7 @@ def step_impl(context):
 @Then('Validar detalle carrito')
 def step_impl(context):
     detalle_car = DescripcionProducto(context)
-    detalle_car.assert_text(*detalle_car.etiqueta_producto, text=HOME_TEXTS.get('lbl_producto_carrito'))
-    detalle_car.assert_text(*detalle_car.etiqueta_precio, text=HOME_TEXTS.get('$9.99'))
+    detalle_car.assert_text(*detalle_car.etiqueta_producto,
+                            text=HOME_TEXTS.get('lbl_producto_carrito'))
+    detalle_car.assert_text(*detalle_car.etiqueta_precio,
+                            text=HOME_TEXTS.get('$9.99'))

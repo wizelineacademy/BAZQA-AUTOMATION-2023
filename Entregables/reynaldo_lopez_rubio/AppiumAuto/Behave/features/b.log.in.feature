@@ -3,6 +3,7 @@ Feature: Log In
   Background:
     Given we are in the Home Page
 
+      @regresion
       @e2e
   Scenario: login_correct_credentials
       Given we tap on the side menu

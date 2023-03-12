@@ -1,5 +1,5 @@
 from screens.side_menu.side_menu_screen import SideMenuScreen
-from behave import *
+from behave import Then
 
 
 @Then('we tap on Log in')

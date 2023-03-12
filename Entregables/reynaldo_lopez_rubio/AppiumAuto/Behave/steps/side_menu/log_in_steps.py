@@ -1,6 +1,4 @@
-import pytest as pytest
-from behave import *
-from Utils.dictionaries.home_screen_text import HOME_TEXTS
+from behave import Then
 from screens.side_menu.log_in_screen import LogInScreen
 
 
