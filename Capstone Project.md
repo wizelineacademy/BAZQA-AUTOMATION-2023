@@ -19,9 +19,7 @@ Usted es un Ingeniero de Calidad de Software en BAZ y acaba de ser asignado a un
 
 **Las fecha de entrega son las siguientes:**
 - **Proyecto de API**: Primer entregable - 31 de Marzo
-- **Proyecto de POM en Python**: Segundo entregable - 21 de Abril
-- **Proyecto de Appium**: Tercer entregable - 8 de Mayo
-
+- **Proyecto de Appium**: Tercer entregable - 21 de Abril
 
 
 # Proyecto de API
@@ -53,7 +51,7 @@ Envío para revisión: 31 de Marzo
 # Proyecto de Appium
 El propósito de este proyecto es construir un framework de automatización desde 0 siguiendo lo aprendido en la ruta de autoestudio de Python proporcionada al inicio de este módulo, así como también poner el conocimiento adquirido en las sesiones en vivo, con instructores presenciales, así como el apoyo de sus mentores. 
 
-**Fecha de entrega: 8 de Mayo del 2022**
+**Fecha de entrega: 21 de Abril del 2023**
 
 Se sugiere al estudiante familiarizarse con la aplicación saucedemo de manera que pueda replicar los casos de prueba a mano antes de proceder a automatizarlos. 
 
@@ -98,7 +96,6 @@ Para publicar tu trabajo, deberás seguir estos pasos:
 &nbsp;&nbsp;├── entregables <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── nombre_completo <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── API <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── POM <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── APPIUM <br>
 
 [Llenar este formato](https://forms.gle/fhWpxsnszAmgjKTr9)
