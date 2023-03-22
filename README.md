@@ -87,18 +87,16 @@ Selecciona la liga de abajo de cualquiera de los mentores, te abrirá su calenda
 Recuerda llenar el [Formato de Retroalimentación](https://forms.gle/tGKFdRVTbh9GAMMLA) al final de tu mentoría.
 
 
-| ID Empleado | Nombre                              | Mentor (Github)               | Mentor (Calendly)
-| ----------: | :---------------------------------- | :-------------------------- | :--------------------------
-| 41908       | HERIBERTO HERNANDEZ SANTIAGO        | [Raúl Moctezuma](https://github.com/raulmoctezuma)|[Raúl Moctezuma](https://calendly.com/raulmoctezuma)|
-| 1044015     | LUIS ALBERTO GONZALEZ MENDEZ        | [Raúl Moctezuma](https://github.com/raulmoctezuma)|[Raúl Moctezuma](https://calendly.com/raulmoctezuma)|
-| 91711       | ANA KAREN GAMA VELASCO              | [Narda Ballesteros](https://github.com/Aixel17)|[Narda Ballesteros](https://calendly.com/nardaballesteros/baz-mentoria-1-1?month=2023-01)|
-|949215       | SAMANTA MARTINEZ ARGUETA            | [Narda Ballesteros](https://github.com/Aixel17)|[Narda Ballesteros](https://calendly.com/nardaballesteros/baz-mentoria-1-1?month=2023-01)|
-| 88433       | KARLA PEÑA AMADOR                   | [Fernando Badilla](https://github.com/fdiazw)|[Fernando Badilla](https://calendly.com/fdiazw/1h)|(https://calendly.com/fdiazw/1h) 
-| 1059769     | REYNALDO LOPEZ RUBIO                | [Fernando Badilla](https://github.com/fdiazw)|[Fernando Badilla](https://calendly.com/fdiazw/1h)|
-| 72282       | LUIS ALFREDO MEDINA OSIO            | [Luca Bacasehua](https://github.com/lucabamoW)|[Luca Bacasehua](https://calendly.com/luca-bacasehua/baz-mentoria-1-1 ) 
-| 949245      | MARGARITA GIRON CHANEZ              | [Luca Bacasehua](https://github.com/lucabamoW)|[Luca Bacasehua](https://calendly.com/luca-bacasehua/baz-mentoria-1-1 ) 
-
-
+| Mentor               | Mentee                          |  Liga para agendar mentoria                |
+|----------------------|---------------------------------|--------------------------------------------|
+| `Fer Badillo Diaz de Leon`       | - LEOPOLDO PRADO PEREZ   <br/> - JORGE LUIS CORRO ROJAS   | [Liga](https://calendly.com/fdiazw/1h) |
+| `Alejandro Garduño Albores`      | - CARLOS ALBERTO CORTES SANCHEZ <br/> - ALAN ALEXIS DOMINGUEZ PEREZ | [Liga](https://calendly.com/agarduno_wize)
+| `Yanira Lopez Carrillo`       | - YOCELIN VAZQUEZ CARRILLO <br/> - JOSE DAVID BARRITA LOPEZ | [Liga](https://calendly.com/yanira-lopez/mentoria-academy-baz)
+| `Fabian Portillo Gonzalez`       | -CLAUDIA NOHEMI MIRANDA VILDOZOLA | [Liga](https://calendly.com/fabian-portillo/baz-mentoria) |
+| `Naza Casasola Angeles`      | - ALFREDO CAJICA MARTINEZ | [Liga]() |
+| `Herminio Cota Perea`      |  - ALIN PAOLA MEJIA SIERRA  | [Liga]()
+| `Moises Rivas Navarro`  | - ALIN PAOLA MEJIA SIERRA | [Liga]()
+| `Narda Ballesteros Reyes`    | - MARIA DEL ROSARIO GERON GARCIA   | [Liga](https://calendly.com/nardaballesteros) |
 
 
 # VI. PROYECTO BAZ SUPERAPP / BANCA DIGITAL (Asignado por Líder de Gremio)
