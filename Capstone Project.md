@@ -45,8 +45,6 @@ El objetivo de este proyecto es poder construir colecciones de Postman, y ordena
 **Envío para revisión:** 
 Los entregables de este proyecto son la colección generada por Postman en formato .json, al igual que un archivo para las variables de ambiente, igual en formato .json.
 
-Envío para revisión: 31 de Marzo
-
 
 # Proyecto de Appium
 El propósito de este proyecto es construir un framework de automatización desde 0 siguiendo lo aprendido en la ruta de autoestudio de Python proporcionada al inicio de este módulo, así como también poner el conocimiento adquirido en las sesiones en vivo, con instructores presenciales, así como el apoyo de sus mentores. 
