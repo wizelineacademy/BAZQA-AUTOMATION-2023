@@ -56,5 +56,5 @@ Sesión 2
     - https://www.selenium.dev/documentation/test_practices/encouraged/page_object_models/ 
     - https://testautomation.dev/getting-started-with-page-object-pattern-for-your-selenium-tests/  
 
-## 📺 Enlace a la presentación
+
 
